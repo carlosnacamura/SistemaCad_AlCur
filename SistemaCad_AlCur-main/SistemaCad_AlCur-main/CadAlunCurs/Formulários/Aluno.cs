@@ -13,19 +13,20 @@ namespace CadAlunCurs.Formulários
     public partial class Aluno : Form
     {
         DataTable dados;
+        DAOAlunos dao = new DAOAlunos();
 
         public Aluno()
         {
             InitializeComponent();
             dados = new DataTable();
             
-            foreach (var atributos in typeof(EntidadeAluno).GetProperties())
+            foreach (var atributos in typeof(EntidadeAlunos).GetProperties())
             {
                 dados.Columns.Add(atributos.Name);
             }
-            dados = dao.ObterDisciplinas();
+            dados = dao.obterAlunos();
 
-            dtGridDisciplina.DataSource = dados;
+            dtAluno.DataSource = dados;
         }
 
         private void btnAdicionar_Click(object sender, EventArgs e)
