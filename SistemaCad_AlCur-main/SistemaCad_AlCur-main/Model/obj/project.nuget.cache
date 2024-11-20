@@ -1,8 +1,12 @@
 {
   "version": 2,
-  "dgSpecHash": "9Trxtfva8G2T8gf28Mbqndi91TlHP50wpwtp4EJdxOh//mKjlHFZx0Oy6CZnqmUhqz5cMHojPhLCnN1wds+rdA==",
+  "dgSpecHash": "ScgohYmFTRM=",
   "success": true,
-  "projectFilePath": "C:\\Users\\Aluno\\Downloads\\SistemaCad_AlCur-main\\SistemaCad_AlCur-main\\Model\\Model.csproj",
-  "expectedPackageFiles": [],
+  "projectFilePath": "C:\\Users\\Administrator\\Source\\Repos\\SistemaCad_AlCur\\SistemaCad_AlCur-main\\SistemaCad_AlCur-main\\Model\\Model.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Administrator\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\3.1.0\\microsoft.windowsdesktop.app.ref.3.1.0.nupkg.sha512",
+    "C:\\Users\\Administrator\\.nuget\\packages\\microsoft.netcore.app.ref\\3.1.0\\microsoft.netcore.app.ref.3.1.0.nupkg.sha512",
+    "C:\\Users\\Administrator\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\3.1.10\\microsoft.aspnetcore.app.ref.3.1.10.nupkg.sha512"
+  ],
   "logs": []
 }

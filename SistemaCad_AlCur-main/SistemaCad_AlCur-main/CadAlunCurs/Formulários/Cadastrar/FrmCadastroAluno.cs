@@ -26,5 +26,20 @@ namespace CadAlunCurs.Formulários.Cadastrar
         {
 
         }
+
+        private void btnCadastrar_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void txtSenha_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void dtpNascimento_ValueChanged(object sender, EventArgs e)
+        {
+
+        }
     }
 }

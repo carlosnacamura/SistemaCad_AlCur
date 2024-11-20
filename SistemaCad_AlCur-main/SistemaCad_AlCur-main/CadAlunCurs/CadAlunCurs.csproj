@@ -90,6 +90,9 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="FormMain.resx">
+      <DependentUpon>FormMain.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Formulários\Aluno.resx">
       <DependentUpon>Aluno.cs</DependentUpon>
     </EmbeddedResource>
@@ -107,6 +110,7 @@
     <Compile Include="Properties\Resources.Designer.cs">
       <AutoGen>True</AutoGen>
       <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
     </Compile>
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
@@ -121,6 +125,101 @@
   <ItemGroup>
     <None Include="App.config" />
   </ItemGroup>
-  <ItemGroup />
+  <ItemGroup>
+    <None Include="Resources\Ideias da tela login %282%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\botao.PNG" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\botao1.PNG" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\botao2.PNG" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\botao3.PNG" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\botao4.PNG" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\botao5.PNG" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\botao 2.PNG" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Ideias da tela login %283%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\cadastro aluno.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\cadastro aluno1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\cadastro aluno2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\cadastro aluno3.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\cadastro aluno4.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\cadastro aluno5.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\cadastro aluno6.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\cadastro aluno cortado.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\botao cadastro.PNG" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\cadastro aluno cortado1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Sistema de cadastro Aluno e cursos.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\botao cadastro1.PNG" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\botao cadastro2.PNG" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Sistema de cadastro Aluno e cursos 2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\branco.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\botao 21.PNG" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\botao 22.PNG" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\branco 2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Sistema de cadastro Aluno e cursos %281%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Sistema de cadastro Aluno e cursos %281%291.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\dalva.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\dalva1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\dalva %281%29.png" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
