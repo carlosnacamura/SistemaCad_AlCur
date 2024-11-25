@@ -1,6 +1,0 @@
-C:\Users\Aluno\Downloads\SistemaCad_AlCur-main\SistemaCad_AlCur-main\Model\bin\Debug\Model.dll
-C:\Users\Aluno\Downloads\SistemaCad_AlCur-main\SistemaCad_AlCur-main\Model\bin\Debug\Model.pdb
-C:\Users\Aluno\Downloads\SistemaCad_AlCur-main\SistemaCad_AlCur-main\Model\obj\Debug\Model.csproj.AssemblyReference.cache
-C:\Users\Aluno\Downloads\SistemaCad_AlCur-main\SistemaCad_AlCur-main\Model\obj\Debug\Model.csproj.CoreCompileInputs.cache
-C:\Users\Aluno\Downloads\SistemaCad_AlCur-main\SistemaCad_AlCur-main\Model\obj\Debug\Model.dll
-C:\Users\Aluno\Downloads\SistemaCad_AlCur-main\SistemaCad_AlCur-main\Model\obj\Debug\Model.pdb
