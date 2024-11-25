@@ -1,0 +1,15 @@
+C:\Users\Administrator\Source\Repos\SistemaCad_AlCur\SistemaCad_AlCur-main\SistemaCad_AlCur-main\CadAlunCurs\obj\Debug\CadAlunCurs.csproj.AssemblyReference.cache
+C:\Users\Administrator\Source\Repos\SistemaCad_AlCur\SistemaCad_AlCur-main\SistemaCad_AlCur-main\CadAlunCurs\obj\Debug\CadAlunCurs.Formulários.Aluno.resources
+C:\Users\Administrator\Source\Repos\SistemaCad_AlCur\SistemaCad_AlCur-main\SistemaCad_AlCur-main\CadAlunCurs\obj\Debug\CadAlunCurs.Formulários.Cadastrar.FrmCadastroAluno.resources
+C:\Users\Administrator\Source\Repos\SistemaCad_AlCur\SistemaCad_AlCur-main\SistemaCad_AlCur-main\CadAlunCurs\obj\Debug\CadAlunCurs.Formulários.Curso.resources
+C:\Users\Administrator\Source\Repos\SistemaCad_AlCur\SistemaCad_AlCur-main\SistemaCad_AlCur-main\CadAlunCurs\obj\Debug\CadAlunCurs.Properties.Resources.resources
+C:\Users\Administrator\Source\Repos\SistemaCad_AlCur\SistemaCad_AlCur-main\SistemaCad_AlCur-main\CadAlunCurs\obj\Debug\CadAlunCurs.csproj.GenerateResource.cache
+C:\Users\Administrator\Source\Repos\SistemaCad_AlCur\SistemaCad_AlCur-main\SistemaCad_AlCur-main\CadAlunCurs\obj\Debug\CadAlunCurs.csproj.CoreCompileInputs.cache
+C:\Users\Aluno\Downloads\SistemaCad_AlCur-main\SistemaCad_AlCur-main\CadAlunCurs\obj\Debug\CadAlunCurs.csproj.AssemblyReference.cache
+C:\Users\Aluno\Downloads\SistemaCad_AlCur-main\SistemaCad_AlCur-main\CadAlunCurs\obj\Debug\CadAlunCurs.Form1.resources
+C:\Users\Aluno\Downloads\SistemaCad_AlCur-main\SistemaCad_AlCur-main\CadAlunCurs\obj\Debug\CadAlunCurs.Formulários.Aluno.resources
+C:\Users\Aluno\Downloads\SistemaCad_AlCur-main\SistemaCad_AlCur-main\CadAlunCurs\obj\Debug\CadAlunCurs.Formulários.Cadastrar.FrmCadastroAluno.resources
+C:\Users\Aluno\Downloads\SistemaCad_AlCur-main\SistemaCad_AlCur-main\CadAlunCurs\obj\Debug\CadAlunCurs.Formulários.Curso.resources
+C:\Users\Aluno\Downloads\SistemaCad_AlCur-main\SistemaCad_AlCur-main\CadAlunCurs\obj\Debug\CadAlunCurs.Properties.Resources.resources
+C:\Users\Aluno\Downloads\SistemaCad_AlCur-main\SistemaCad_AlCur-main\CadAlunCurs\obj\Debug\CadAlunCurs.csproj.GenerateResource.cache
+C:\Users\Aluno\Downloads\SistemaCad_AlCur-main\SistemaCad_AlCur-main\CadAlunCurs\obj\Debug\CadAlunCurs.csproj.CoreCompileInputs.cache
