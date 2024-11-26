@@ -51,3 +51,22 @@ D:\Tarefas\Desenvolvimento de Sistemas\SistemaCad_AlCur\SistemaCad_AlCur-main\Ca
 D:\Tarefas\Desenvolvimento de Sistemas\SistemaCad_AlCur\SistemaCad_AlCur-main\CadAlunCurs\obj\Debug\CadAlunCurs.csproj.CopyComplete
 D:\Tarefas\Desenvolvimento de Sistemas\SistemaCad_AlCur\SistemaCad_AlCur-main\CadAlunCurs\obj\Debug\CadAlunCurs.exe
 D:\Tarefas\Desenvolvimento de Sistemas\SistemaCad_AlCur\SistemaCad_AlCur-main\CadAlunCurs\obj\Debug\CadAlunCurs.pdb
+C:\Users\Aluno\Source\Repos\carlosnacamura\SistemaCad_AlCur\CadAlunCurs\bin\Debug\CadAlunCurs.exe.config
+C:\Users\Aluno\Source\Repos\carlosnacamura\SistemaCad_AlCur\CadAlunCurs\bin\Debug\CadAlunCurs.exe
+C:\Users\Aluno\Source\Repos\carlosnacamura\SistemaCad_AlCur\CadAlunCurs\bin\Debug\CadAlunCurs.pdb
+C:\Users\Aluno\Source\Repos\carlosnacamura\SistemaCad_AlCur\CadAlunCurs\bin\Debug\Model.dll
+C:\Users\Aluno\Source\Repos\carlosnacamura\SistemaCad_AlCur\CadAlunCurs\bin\Debug\Model.pdb
+C:\Users\Aluno\Source\Repos\carlosnacamura\SistemaCad_AlCur\CadAlunCurs\obj\Debug\CadAlunCurs.csproj.AssemblyReference.cache
+C:\Users\Aluno\Source\Repos\carlosnacamura\SistemaCad_AlCur\CadAlunCurs\obj\Debug\CadAlunCurs.formLogin.resources
+C:\Users\Aluno\Source\Repos\carlosnacamura\SistemaCad_AlCur\CadAlunCurs\obj\Debug\CadAlunCurs.Formulários.Aluno.resources
+C:\Users\Aluno\Source\Repos\carlosnacamura\SistemaCad_AlCur\CadAlunCurs\obj\Debug\CadAlunCurs.Formulários.Cadastrar.FrmCadastroAluno.resources
+C:\Users\Aluno\Source\Repos\carlosnacamura\SistemaCad_AlCur\CadAlunCurs\obj\Debug\CadAlunCurs.Formulários.Editar.FrmCadastroCurso.resources
+C:\Users\Aluno\Source\Repos\carlosnacamura\SistemaCad_AlCur\CadAlunCurs\obj\Debug\CadAlunCurs.Formulários.Curso.resources
+C:\Users\Aluno\Source\Repos\carlosnacamura\SistemaCad_AlCur\CadAlunCurs\obj\Debug\CadAlunCurs.Formulários.Editar.FrmEditarAluno.resources
+C:\Users\Aluno\Source\Repos\carlosnacamura\SistemaCad_AlCur\CadAlunCurs\obj\Debug\CadAlunCurs.Formulários.frmMain.resources
+C:\Users\Aluno\Source\Repos\carlosnacamura\SistemaCad_AlCur\CadAlunCurs\obj\Debug\CadAlunCurs.Properties.Resources.resources
+C:\Users\Aluno\Source\Repos\carlosnacamura\SistemaCad_AlCur\CadAlunCurs\obj\Debug\CadAlunCurs.csproj.GenerateResource.cache
+C:\Users\Aluno\Source\Repos\carlosnacamura\SistemaCad_AlCur\CadAlunCurs\obj\Debug\CadAlunCurs.csproj.CoreCompileInputs.cache
+C:\Users\Aluno\Source\Repos\carlosnacamura\SistemaCad_AlCur\CadAlunCurs\obj\Debug\CadAlunCurs.csproj.CopyComplete
+C:\Users\Aluno\Source\Repos\carlosnacamura\SistemaCad_AlCur\CadAlunCurs\obj\Debug\CadAlunCurs.exe
+C:\Users\Aluno\Source\Repos\carlosnacamura\SistemaCad_AlCur\CadAlunCurs\obj\Debug\CadAlunCurs.pdb

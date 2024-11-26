@@ -41,6 +41,7 @@ namespace CadAlunCurs.Formulários
             this.btnAlunos.TabIndex = 0;
             this.btnAlunos.Text = "Alunos";
             this.btnAlunos.UseVisualStyleBackColor = true;
+            this.btnAlunos.Click += new System.EventHandler(this.btnAlunos_Click);
             // 
             // btnCurso
             // 
@@ -48,8 +49,9 @@ namespace CadAlunCurs.Formulários
             this.btnCurso.Name = "btnCurso";
             this.btnCurso.Size = new System.Drawing.Size(75, 23);
             this.btnCurso.TabIndex = 1;
-            this.btnCurso.Text = "button2";
+            this.btnCurso.Text = "Cursos";
             this.btnCurso.UseVisualStyleBackColor = true;
+            this.btnCurso.Click += new System.EventHandler(this.btnCurso_Click);
             // 
             // frmMain
             // 
@@ -60,6 +62,7 @@ namespace CadAlunCurs.Formulários
             this.Controls.Add(this.btnAlunos);
             this.Name = "frmMain";
             this.Text = "Main";
+            this.Load += new System.EventHandler(this.frmMain_Load);
             this.ResumeLayout(false);
 
         }
