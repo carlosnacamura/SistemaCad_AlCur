@@ -17,6 +17,6 @@ namespace Model.Entidades
         public Object[] Linha()
         {
             return new object[] { ID_ALUNO, NOME, IDADE,EMAIL, ID_CURSO };
-        }// cekjcvbwdiuc sdfw
+        }// cekjcvbwdiuc sd
     }
 }
