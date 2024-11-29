@@ -12,7 +12,7 @@ namespace CadAlunCurs.DAOB
    
     class DAOAlunos
     {
-        private string LinhaConexao = "Server=SistemAlunCar;Database=BD_ALUNCURS;User Id=root;Password=;";
+        private string LinhaConexao = "Server=localhost;Database=BD_ALUNCURS;Uid=root;Pwd=;";
         private SqlConnection Conexao;
         public DAOAlunos()
         {
@@ -46,7 +46,7 @@ namespace CadAlunCurs.DAOB
         {
             DataTable dt = new DataTable();
             Conexao.Open();
-            string query = "SELECT C.Nome AS NomeCurso, D.Nome AS NomeDisciplina, cd.periodo " +
+            string query = "SELECT A.NOME AS NOME, D.Nome AS NomeDisciplina, cd.periodo " +
                "FROM CURSO_DISCIPLINA CD " +
                "INNER JOIN CURSOS C ON C.Id = CD.Curso_Id " +
                "INNER JOIN DISCIPLINAS D ON D.Id = CD.Disciplina_Id " +
@@ -55,7 +55,7 @@ namespace CadAlunCurs.DAOB
             SqlCommand comando = new SqlCommand(query, Conexao);
             SqlDataReader Leitura = comando.ExecuteReader();
 
-            dt.Columns.Add("NomeCurso");
+            dt.Columns.Add("NOME");
             dt.Columns.Add("NomeDisciplina");
             dt.Columns.Add("Periodo");
 
