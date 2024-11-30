@@ -12,7 +12,7 @@ namespace CadAlunCurs.DAOB
    
     class DAOAlunos
     {
-        private string LinhaConexao = "Server=localhost;Database=BD_ALUNCURS;Uid=root;Pwd=;";
+        private string LinhaConexao = "Server=localhost;Database=SistemAlunCurs;User=root;Password=;";
         private SqlConnection Conexao;
         public DAOAlunos()
         {
@@ -46,18 +46,21 @@ namespace CadAlunCurs.DAOB
         {
             DataTable dt = new DataTable();
             Conexao.Open();
-            string query = "SELECT A.NOME AS NOME, D.Nome AS NomeDisciplina, cd.periodo " +
-               "FROM CURSO_DISCIPLINA CD " +
-               "INNER JOIN CURSOS C ON C.Id = CD.Curso_Id " +
-               "INNER JOIN DISCIPLINAS D ON D.Id = CD.Disciplina_Id " +
-               "ORDER BY CD.Id DESC";
+            string query = @"
+                SELECT 
+                    CURSOS.NOMR_CUR AS Nome_Curso,
+                    ALUNOS.NOME AS Nome_Aluno,
+                    ALUNOS.EMAIL AS Email_Aluno
+                FROM CURSOS
+                INNER JOIN ALUNOS ON CURSOS.ID_CURSO = ALUNOS.ID_CURSO
+                ORDER BY CURSOS.NOMR_CUR, ALUNOS.NOME";
 
             SqlCommand comando = new SqlCommand(query, Conexao);
             SqlDataReader Leitura = comando.ExecuteReader();
 
-            dt.Columns.Add("NOME");
-            dt.Columns.Add("NomeDisciplina");
-            dt.Columns.Add("Periodo");
+            dt.Columns.Add("Nome_Curso");
+            dt.Columns.Add("Nome_Aluno");
+            dt.Columns.Add("Email_Aluno");
 
             if (Leitura.HasRows)
             {
@@ -66,10 +69,9 @@ namespace CadAlunCurs.DAOB
                     EntidadeAlunos a = new EntidadeAlunos();
 
                     a.NOME = Leitura[0].ToString();
-                    a.IDADE = Convert.ToInt32(Leitura[1]);
-                    a.EMAIL = Leitura[2].ToString();
-                    a.ID_CURSO = Convert.ToInt32(Leitura[3]);
-                    a.ID_ALUNO = Convert.ToInt32(Leitura[4]);
+                    a.EMAIL = Leitura[1].ToString();
+                    a.ID_CURSO = Convert.ToInt32(Leitura[2]);
+                    a.ID_ALUNO = Convert.ToInt32(Leitura[3]);
                     dt.Rows.Add(a.Linha());
 
                 }
