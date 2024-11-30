@@ -1,4 +1,6 @@
 ﻿using CadAlunCurs.DAOB;
+using CadAlunCurs.Formulários.Cadastrar;
+using CadAlunCurs.Formulários.Editar;
 using Model.Entidades;
 using System;
 using System.Collections.Generic;
@@ -30,20 +32,27 @@ namespace CadAlunCurs.Formulários
 
         private void btnAdicionar_Click(object sender, EventArgs e)
         {
-            
+            FrmCadastroCurso cadastro = new FrmCadastroCurso();
+            cadastro.FormClosed += Fechou_Editar_FormClosed;
+            cadastro.ShowDialog();
         }
 
         private void dtCurso_CellDoubleClick(object sender, DataGridViewCellEventArgs e)
         {
-
-        }
-
-        private void Curso_Load(object sender, EventArgs e)
-        {
-
+             if (e.RowIndex >= 0)
+            {
+                int id = Convert.ToInt32(dtCurso.Rows[e.RowIndex].Cells[0].Value);
+                FrmEditarCurso editar = new FrmEditarCurso(id);
+                editar.FormClosed += Fechou_Editar_FormClosed;
+                editar.ShowDialog();
+            }
         }
 
         private void txtPesquisar_TextChanged(object sender, EventArgs e)
+        {
+            dtCurso.DataSource = dao.Pesquisar(txtPesquisa.Text);
+        }
+        private void Curso_Load(object sender, EventArgs e)
         {
 
         }
