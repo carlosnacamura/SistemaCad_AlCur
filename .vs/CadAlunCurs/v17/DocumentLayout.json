@@ -1,0 +1,105 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Administrator\\source\\repos\\SistemaCad_AlCur\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{61D2450F-E361-400A-AEF7-06E335B8341D}|CadAlunCurs\\CadAlunCurs.csproj|c:\\users\\administrator\\source\\repos\\sistemacad_alcur\\cadaluncurs\\formul\u00E1rios\\cadastrar\\frmcadastrocurso.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{61D2450F-E361-400A-AEF7-06E335B8341D}|CadAlunCurs\\CadAlunCurs.csproj|solutionrelative:cadaluncurs\\formul\u00E1rios\\cadastrar\\frmcadastrocurso.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{61D2450F-E361-400A-AEF7-06E335B8341D}|CadAlunCurs\\CadAlunCurs.csproj|c:\\users\\administrator\\source\\repos\\sistemacad_alcur\\cadaluncurs\\formul\u00E1rios\\cadastrar\\frmcadastroaluno.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{61D2450F-E361-400A-AEF7-06E335B8341D}|CadAlunCurs\\CadAlunCurs.csproj|solutionrelative:cadaluncurs\\formul\u00E1rios\\cadastrar\\frmcadastroaluno.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{61D2450F-E361-400A-AEF7-06E335B8341D}|CadAlunCurs\\CadAlunCurs.csproj|c:\\users\\administrator\\source\\repos\\sistemacad_alcur\\cadaluncurs\\formul\u00E1rios\\aluno.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{61D2450F-E361-400A-AEF7-06E335B8341D}|CadAlunCurs\\CadAlunCurs.csproj|solutionrelative:cadaluncurs\\formul\u00E1rios\\aluno.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{61D2450F-E361-400A-AEF7-06E335B8341D}|CadAlunCurs\\CadAlunCurs.csproj|c:\\users\\administrator\\source\\repos\\sistemacad_alcur\\cadaluncurs\\formul\u00E1rios\\curso.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{61D2450F-E361-400A-AEF7-06E335B8341D}|CadAlunCurs\\CadAlunCurs.csproj|solutionrelative:cadaluncurs\\formul\u00E1rios\\curso.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{61D2450F-E361-400A-AEF7-06E335B8341D}|CadAlunCurs\\CadAlunCurs.csproj|c:\\users\\administrator\\source\\repos\\sistemacad_alcur\\cadaluncurs\\formul\u00E1rios\\cadastrar\\frmcadastroaluno.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{61D2450F-E361-400A-AEF7-06E335B8341D}|CadAlunCurs\\CadAlunCurs.csproj|solutionrelative:cadaluncurs\\formul\u00E1rios\\cadastrar\\frmcadastroaluno.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 2,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "FrmCadastroAluno.cs",
+              "DocumentMoniker": "C:\\Users\\Administrator\\source\\repos\\SistemaCad_AlCur\\CadAlunCurs\\Formul\u00E1rios\\Cadastrar\\FrmCadastroAluno.cs",
+              "RelativeDocumentMoniker": "CadAlunCurs\\Formul\u00E1rios\\Cadastrar\\FrmCadastroAluno.cs",
+              "ToolTip": "C:\\Users\\Administrator\\source\\repos\\SistemaCad_AlCur\\CadAlunCurs\\Formul\u00E1rios\\Cadastrar\\FrmCadastroAluno.cs",
+              "RelativeToolTip": "CadAlunCurs\\Formul\u00E1rios\\Cadastrar\\FrmCadastroAluno.cs",
+              "ViewState": "AgIAAB8AAAAAAAAAAAAQwDMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-01T16:21:58.553Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "FrmCadastroCurso.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\Administrator\\source\\repos\\SistemaCad_AlCur\\CadAlunCurs\\Formul\u00E1rios\\Cadastrar\\FrmCadastroCurso.cs",
+              "RelativeDocumentMoniker": "CadAlunCurs\\Formul\u00E1rios\\Cadastrar\\FrmCadastroCurso.cs",
+              "ToolTip": "C:\\Users\\Administrator\\source\\repos\\SistemaCad_AlCur\\CadAlunCurs\\Formul\u00E1rios\\Cadastrar\\FrmCadastroCurso.cs [Design]",
+              "RelativeToolTip": "CadAlunCurs\\Formul\u00E1rios\\Cadastrar\\FrmCadastroCurso.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-01T16:08:29.999Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Curso.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\Administrator\\source\\repos\\SistemaCad_AlCur\\CadAlunCurs\\Formul\u00E1rios\\Curso.cs",
+              "RelativeDocumentMoniker": "CadAlunCurs\\Formul\u00E1rios\\Curso.cs",
+              "ToolTip": "C:\\Users\\Administrator\\source\\repos\\SistemaCad_AlCur\\CadAlunCurs\\Formul\u00E1rios\\Curso.cs [Design]",
+              "RelativeToolTip": "CadAlunCurs\\Formul\u00E1rios\\Curso.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-01T16:08:15.741Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "FrmCadastroAluno.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\Administrator\\source\\repos\\SistemaCad_AlCur\\CadAlunCurs\\Formul\u00E1rios\\Cadastrar\\FrmCadastroAluno.cs",
+              "RelativeDocumentMoniker": "CadAlunCurs\\Formul\u00E1rios\\Cadastrar\\FrmCadastroAluno.cs",
+              "ToolTip": "C:\\Users\\Administrator\\source\\repos\\SistemaCad_AlCur\\CadAlunCurs\\Formul\u00E1rios\\Cadastrar\\FrmCadastroAluno.cs [Design]",
+              "RelativeToolTip": "CadAlunCurs\\Formul\u00E1rios\\Cadastrar\\FrmCadastroAluno.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-01T15:55:42.811Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Aluno.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\Administrator\\source\\repos\\SistemaCad_AlCur\\CadAlunCurs\\Formul\u00E1rios\\Aluno.cs",
+              "RelativeDocumentMoniker": "CadAlunCurs\\Formul\u00E1rios\\Aluno.cs",
+              "ToolTip": "C:\\Users\\Administrator\\source\\repos\\SistemaCad_AlCur\\CadAlunCurs\\Formul\u00E1rios\\Aluno.cs [Design]",
+              "RelativeToolTip": "CadAlunCurs\\Formul\u00E1rios\\Aluno.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-01T15:54:38.925Z",
+              "EditorCaption": " [Design]"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -118,6 +118,12 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="Inserir aluno1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Inserir aluno.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Sistema de cadastro Aluno e cursos (1)1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Sistema de cadastro Aluno e cursos (1)1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="botao4" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\botao4.PNG;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
@@ -136,6 +142,9 @@
   <data name="botao1" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\botao1.PNG;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="botao" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\botao.PNG;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="cadastro aluno1" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\cadastro aluno1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
@@ -145,14 +154,11 @@
   <data name="botao 21" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\botao 21.PNG;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="botao" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\botao.PNG;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="dalva (1)" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\dalva (1).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="botao2" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\botao2.PNG;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="dalva1" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\dalva1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="cadastro aluno6" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\cadastro aluno6.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -181,17 +187,23 @@
   <data name="Sistema de cadastro Aluno e cursos 2" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Sistema de cadastro Aluno e cursos 2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="Inserir aluno" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Inserir aluno.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="Sistema de cadastro Aluno e cursos (1)" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Sistema de cadastro Aluno e cursos (1).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="Sistema de cadastro Aluno e cursos (1)1" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\Sistema de cadastro Aluno e cursos (1)1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="dalva1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\dalva1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="cadastro aluno3" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\cadastro aluno3.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="Ideias da tela login (3)" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Ideias da tela login (3).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Inserir aluno2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Inserir aluno1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="Sistema de cadastro Aluno e cursos" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Sistema de cadastro Aluno e cursos.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -211,7 +223,7 @@
   <data name="cadastro aluno" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\cadastro aluno.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="dalva (1)" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\dalva (1).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="Cadastrar curso" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Cadastrar curso.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
 </root>

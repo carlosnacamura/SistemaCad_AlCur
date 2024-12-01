@@ -37,9 +37,10 @@ namespace CadAlunCurs.Formulários
             // 
             // btnAdicionar
             // 
-            this.btnAdicionar.Location = new System.Drawing.Point(34, 12);
+            this.btnAdicionar.Location = new System.Drawing.Point(51, 18);
+            this.btnAdicionar.Margin = new System.Windows.Forms.Padding(5, 5, 5, 5);
             this.btnAdicionar.Name = "btnAdicionar";
-            this.btnAdicionar.Size = new System.Drawing.Size(154, 57);
+            this.btnAdicionar.Size = new System.Drawing.Size(231, 88);
             this.btnAdicionar.TabIndex = 2;
             this.btnAdicionar.Text = "Adicionar curso";
             this.btnAdicionar.UseVisualStyleBackColor = true;
@@ -47,29 +48,33 @@ namespace CadAlunCurs.Formulários
             // 
             // txtPesquisar
             // 
-            this.txtPesquisar.Location = new System.Drawing.Point(503, 31);
+            this.txtPesquisar.Location = new System.Drawing.Point(615, 49);
+            this.txtPesquisar.Margin = new System.Windows.Forms.Padding(5, 5, 5, 5);
             this.txtPesquisar.Name = "txtPesquisar";
-            this.txtPesquisar.Size = new System.Drawing.Size(189, 20);
+            this.txtPesquisar.Size = new System.Drawing.Size(282, 26);
             this.txtPesquisar.TabIndex = 3;
             this.txtPesquisar.TextChanged += new System.EventHandler(this.txtPesquisar_TextChanged);
             // 
             // dtCurso
             // 
             this.dtCurso.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dtCurso.Location = new System.Drawing.Point(12, 91);
+            this.dtCurso.Location = new System.Drawing.Point(18, 140);
+            this.dtCurso.Margin = new System.Windows.Forms.Padding(5, 5, 5, 5);
             this.dtCurso.Name = "dtCurso";
-            this.dtCurso.Size = new System.Drawing.Size(680, 347);
+            this.dtCurso.Size = new System.Drawing.Size(1020, 534);
             this.dtCurso.TabIndex = 4;
             this.dtCurso.CellDoubleClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dtCurso_CellDoubleClick);
             // 
             // Curso
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(704, 450);
+            this.ClientSize = new System.Drawing.Size(911, 574);
             this.Controls.Add(this.dtCurso);
             this.Controls.Add(this.txtPesquisar);
             this.Controls.Add(this.btnAdicionar);
+            this.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Margin = new System.Windows.Forms.Padding(5, 5, 5, 5);
             this.Name = "Curso";
             this.Text = "Curso";
             this.Load += new System.EventHandler(this.Curso_Load);

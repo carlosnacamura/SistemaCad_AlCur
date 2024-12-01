@@ -12,9 +12,9 @@ namespace CadAlunCurs.Formulários.Editar
 {
     private string LinhaConexao = "Server=LS05MPF;Database=AULA_DS;User Id=sa;Password=admsasql;";
     private SqlConnection Conexao;
-    public partial class FrmCadastroCurso : Form
+    public partial class txtDigl : Form
     {
-        public FrmCadastroCurso()
+        public txtDigl()
         {
             InitializeComponent();
         }
@@ -40,6 +40,11 @@ namespace CadAlunCurs.Formulários.Editar
             {
                 MessageBox.Show("Erro ao Cadastrar", "Erro", MessageBoxButtons.OK, MessageBoxIcon.Error);
             }
+        }
+
+        private void txtDigl_Load(object sender, EventArgs e)
+        {
+
         }
     }
 }

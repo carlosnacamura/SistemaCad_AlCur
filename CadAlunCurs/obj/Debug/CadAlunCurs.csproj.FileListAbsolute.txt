@@ -70,3 +70,15 @@ C:\Users\Aluno\Source\Repos\carlosnacamura\SistemaCad_AlCur\CadAlunCurs\obj\Debu
 C:\Users\Aluno\Source\Repos\carlosnacamura\SistemaCad_AlCur\CadAlunCurs\obj\Debug\CadAlunCurs.csproj.CopyComplete
 C:\Users\Aluno\Source\Repos\carlosnacamura\SistemaCad_AlCur\CadAlunCurs\obj\Debug\CadAlunCurs.exe
 C:\Users\Aluno\Source\Repos\carlosnacamura\SistemaCad_AlCur\CadAlunCurs\obj\Debug\CadAlunCurs.pdb
+C:\Users\Administrator\Source\Repos\SistemaCad_AlCur\CadAlunCurs\obj\Debug\CadAlunCurs.csproj.AssemblyReference.cache
+C:\Users\Administrator\Source\Repos\SistemaCad_AlCur\CadAlunCurs\obj\Debug\CadAlunCurs.formLogin.resources
+C:\Users\Administrator\Source\Repos\SistemaCad_AlCur\CadAlunCurs\obj\Debug\CadAlunCurs.Formulários.Aluno.resources
+C:\Users\Administrator\Source\Repos\SistemaCad_AlCur\CadAlunCurs\obj\Debug\CadAlunCurs.Formulários.Cadastrar.FrmCadastroAluno.resources
+C:\Users\Administrator\Source\Repos\SistemaCad_AlCur\CadAlunCurs\obj\Debug\CadAlunCurs.Formulários.Editar.FrmCadastroCurso.resources
+C:\Users\Administrator\Source\Repos\SistemaCad_AlCur\CadAlunCurs\obj\Debug\CadAlunCurs.Formulários.Curso.resources
+C:\Users\Administrator\Source\Repos\SistemaCad_AlCur\CadAlunCurs\obj\Debug\CadAlunCurs.Formulários.Editar.FrmEditarAluno.resources
+C:\Users\Administrator\Source\Repos\SistemaCad_AlCur\CadAlunCurs\obj\Debug\CadAlunCurs.Formulários.frmMain.resources
+C:\Users\Administrator\Source\Repos\SistemaCad_AlCur\CadAlunCurs\obj\Debug\CadAlunCurs.csproj.GenerateResource.cache
+C:\Users\Administrator\Source\Repos\SistemaCad_AlCur\CadAlunCurs\obj\Debug\CadAlunCurs.exe
+C:\Users\Administrator\Source\Repos\SistemaCad_AlCur\CadAlunCurs\obj\Debug\CadAlunCurs.pdb
+C:\Users\Administrator\Source\Repos\SistemaCad_AlCur\CadAlunCurs\obj\Debug\CadAlunCurs.Formulários.Editar.txtDigl.resources

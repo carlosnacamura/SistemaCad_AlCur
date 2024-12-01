@@ -121,14 +121,8 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
-      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
       <SubType>Designer</SubType>
     </EmbeddedResource>
-    <Compile Include="Properties\Resources.Designer.cs">
-      <AutoGen>True</AutoGen>
-      <DependentUpon>Resources.resx</DependentUpon>
-      <DesignTime>True</DesignTime>
-    </Compile>
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
       <LastGenOutput>Settings.Designer.cs</LastGenOutput>
@@ -143,106 +137,118 @@
     <None Include="App.config" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="Resources\Ideias da tela login %282%29.png" />
+    <None Include="Resources\Lixo\Ideias da tela login %282%29.png" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="Resources\botao.PNG" />
+    <None Include="Resources\Lixo\botao.PNG" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="Resources\botao1.PNG" />
+    <None Include="Resources\Lixo\botao1.PNG" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="Resources\botao2.PNG" />
+    <None Include="Resources\Lixo\botao2.PNG" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="Resources\botao3.PNG" />
+    <None Include="Resources\Lixo\botao3.PNG" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="Resources\botao4.PNG" />
+    <None Include="Resources\Lixo\botao4.PNG" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="Resources\botao5.PNG" />
+    <None Include="Resources\Lixo\botao5.PNG" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="Resources\botao 2.PNG" />
+    <None Include="Resources\Lixo\botao 2.PNG" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="Resources\Ideias da tela login %283%29.png" />
+    <None Include="Resources\Lixo\Ideias da tela login %283%29.png" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="Resources\cadastro aluno.png" />
+    <None Include="Resources\Lixo\cadastro aluno.png" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="Resources\cadastro aluno1.png" />
+    <None Include="Resources\Lixo\cadastro aluno1.png" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="Resources\cadastro aluno2.png" />
+    <None Include="Resources\Lixo\cadastro aluno2.png" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="Resources\cadastro aluno3.png" />
+    <None Include="Resources\Lixo\cadastro aluno3.png" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="Resources\cadastro aluno4.png" />
+    <None Include="Resources\Lixo\cadastro aluno4.png" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="Resources\cadastro aluno5.png" />
+    <None Include="Resources\Lixo\cadastro aluno5.png" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="Resources\cadastro aluno6.png" />
+    <None Include="Resources\Lixo\cadastro aluno6.png" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="Resources\cadastro aluno cortado.png" />
+    <None Include="Resources\Lixo\cadastro aluno cortado.png" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="Resources\botao cadastro.PNG" />
+    <None Include="Resources\Lixo\botao cadastro.PNG" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="Resources\cadastro aluno cortado1.png" />
+    <None Include="Resources\Lixo\cadastro aluno cortado1.png" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="Resources\Sistema de cadastro Aluno e cursos.png" />
+    <None Include="Resources\Lixo\Sistema de cadastro Aluno e cursos.png" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="Resources\botao cadastro1.PNG" />
+    <None Include="Resources\Lixo\botao cadastro1.PNG" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="Resources\botao cadastro2.PNG" />
+    <None Include="Resources\Lixo\botao cadastro2.PNG" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="Resources\Sistema de cadastro Aluno e cursos 2.png" />
+    <None Include="Resources\Lixo\Sistema de cadastro Aluno e cursos 2.png" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="Resources\branco.png" />
+    <None Include="Resources\Lixo\branco.png" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="Resources\botao 21.PNG" />
+    <None Include="Resources\Lixo\botao 21.PNG" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="Resources\botao 22.PNG" />
+    <None Include="Resources\Lixo\botao 22.PNG" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="Resources\branco 2.png" />
+    <None Include="Resources\Lixo\branco 2.png" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="Resources\Sistema de cadastro Aluno e cursos %281%29.png" />
+    <None Include="Resources\Lixo\Sistema de cadastro Aluno e cursos %281%29.png" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="Resources\Sistema de cadastro Aluno e cursos %281%291.png" />
+    <None Include="Resources\Lixo\Sistema de cadastro Aluno e cursos %281%291.png" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="Resources\dalva.png" />
+    <None Include="Resources\Lixo\dalva.png" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="Resources\dalva1.png" />
+    <None Include="Resources\Lixo\dalva1.png" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="Resources\dalva %281%29.png" />
+    <None Include="Resources\Lixo\dalva %281%29.png" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\Model\Model.csproj">
       <Project>{e7b62c7e-4bcb-41d4-ace8-c3a1a844ea52}</Project>
       <Name>Model</Name>
     </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Lixo\Inserir aluno.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Inserir aluno.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Inserir aluno1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Cadastrar curso.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
