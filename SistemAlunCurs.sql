@@ -1,5 +1,5 @@
 -- Server=CLAUDIA1968\DBCARLOS;Database=SistemAlunCurs;User=carkapo;Password=112233; 
-
+-- Server=LS02M01;Database=SistemAlunCurs;User=carkapo1;Password=112233; 
 IF NOT EXISTS (SELECT * FROM sys.databases WHERE name = 'SistemAlunCurs')
 BEGIN
     CREATE DATABASE SistemAlunCurs;
@@ -74,9 +74,9 @@ VALUES
     ('Vinícius Lopes', 20, 'vinicius.lopes@email.com', 10);
 
     INSERT INTO USUARIOS (NOME,SENHA) VALUES
-    ("Carlos","112233"),
-    ("Raphael","AmanteSonic"),
-    ("Wagner","Mamute");
+    ('Carlos','112233'),
+    ('Raphael','AmanteSonic'),
+    ('Wagner','Mamute');
 
 SELECT 
     CURSOS.NOME_CUR AS Nome_Curso,
