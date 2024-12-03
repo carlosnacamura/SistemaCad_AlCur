@@ -1,0 +1,10 @@
+C:\Users\nacam\source\repos\carlosnacamura\SistemaCad_AlCur\SistemaAlunosCursos\bin\Debug\SistemaAlunosCursos.exe.config
+C:\Users\nacam\source\repos\carlosnacamura\SistemaCad_AlCur\SistemaAlunosCursos\bin\Debug\SistemaAlunosCursos.exe
+C:\Users\nacam\source\repos\carlosnacamura\SistemaCad_AlCur\SistemaAlunosCursos\bin\Debug\SistemaAlunosCursos.pdb
+C:\Users\nacam\source\repos\carlosnacamura\SistemaCad_AlCur\SistemaAlunosCursos\obj\Debug\SistemaAlunosCursos.csproj.AssemblyReference.cache
+C:\Users\nacam\source\repos\carlosnacamura\SistemaCad_AlCur\SistemaAlunosCursos\obj\Debug\SistemaAlunosCursos.FrmMain.resources
+C:\Users\nacam\source\repos\carlosnacamura\SistemaCad_AlCur\SistemaAlunosCursos\obj\Debug\SistemaAlunosCursos.Properties.Resources.resources
+C:\Users\nacam\source\repos\carlosnacamura\SistemaCad_AlCur\SistemaAlunosCursos\obj\Debug\SistemaAlunosCursos.csproj.GenerateResource.cache
+C:\Users\nacam\source\repos\carlosnacamura\SistemaCad_AlCur\SistemaAlunosCursos\obj\Debug\SistemaAlunosCursos.csproj.CoreCompileInputs.cache
+C:\Users\nacam\source\repos\carlosnacamura\SistemaCad_AlCur\SistemaAlunosCursos\obj\Debug\SistemaAlunosCursos.exe
+C:\Users\nacam\source\repos\carlosnacamura\SistemaCad_AlCur\SistemaAlunosCursos\obj\Debug\SistemaAlunosCursos.pdb

@@ -1,0 +1,74 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\nacam\\source\\repos\\carlosnacamura\\SistemaCad_AlCur\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{F73EE698-E29A-4173-9CDF-F7B09A125C28}|Model\\Model.csproj|c:\\users\\nacam\\source\\repos\\carlosnacamura\\sistemacad_alcur\\model\\class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F73EE698-E29A-4173-9CDF-F7B09A125C28}|Model\\Model.csproj|solutionrelative:model\\class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E2916895-C15A-412D-896F-7F5E179D7620}|SistemaAlunosCursos\\SistemaAlunosCursos.csproj|c:\\users\\nacam\\source\\repos\\carlosnacamura\\sistemacad_alcur\\sistemaalunoscursos\\frmmain.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{E2916895-C15A-412D-896F-7F5E179D7620}|SistemaAlunosCursos\\SistemaAlunosCursos.csproj|solutionrelative:sistemaalunoscursos\\frmmain.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E2916895-C15A-412D-896F-7F5E179D7620}|SistemaAlunosCursos\\SistemaAlunosCursos.csproj|c:\\users\\nacam\\source\\repos\\carlosnacamura\\sistemacad_alcur\\sistemaalunoscursos\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E2916895-C15A-412D-896F-7F5E179D7620}|SistemaAlunosCursos\\SistemaAlunosCursos.csproj|solutionrelative:sistemaalunoscursos\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Class1.cs",
+              "DocumentMoniker": "C:\\Users\\nacam\\source\\repos\\carlosnacamura\\SistemaCad_AlCur\\Model\\Class1.cs",
+              "RelativeDocumentMoniker": "Model\\Class1.cs",
+              "ToolTip": "C:\\Users\\nacam\\source\\repos\\carlosnacamura\\SistemaCad_AlCur\\Model\\Class1.cs",
+              "RelativeToolTip": "Model\\Class1.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-03T14:00:36.233Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\nacam\\source\\repos\\carlosnacamura\\SistemaCad_AlCur\\SistemaAlunosCursos\\Program.cs",
+              "RelativeDocumentMoniker": "SistemaAlunosCursos\\Program.cs",
+              "ToolTip": "C:\\Users\\nacam\\source\\repos\\carlosnacamura\\SistemaCad_AlCur\\SistemaAlunosCursos\\Program.cs",
+              "RelativeToolTip": "SistemaAlunosCursos\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-03T13:59:14.487Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "FrmMain.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\nacam\\source\\repos\\carlosnacamura\\SistemaCad_AlCur\\SistemaAlunosCursos\\FrmMain.cs",
+              "RelativeDocumentMoniker": "SistemaAlunosCursos\\FrmMain.cs",
+              "ToolTip": "C:\\Users\\nacam\\source\\repos\\carlosnacamura\\SistemaCad_AlCur\\SistemaAlunosCursos\\FrmMain.cs [Design]",
+              "RelativeToolTip": "SistemaAlunosCursos\\FrmMain.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-03T13:58:03.332Z",
+              "EditorCaption": " [Design]"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

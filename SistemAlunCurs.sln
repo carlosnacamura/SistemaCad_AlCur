@@ -1,9 +1,11 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
-VisualStudioVersion = 17.12.35521.163 d17.12
+VisualStudioVersion = 17.12.35521.163
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SistemAlunCurs", "SistemAlunCurs\SistemAlunCurs.csproj", "{4E2D65FC-6E05-4A16-88F0-42BB4C3CA2DC}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SistemaAlunosCursos", "SistemaAlunosCursos\SistemaAlunosCursos.csproj", "{E2916895-C15A-412D-896F-7F5E179D7620}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Model", "Model\Model.csproj", "{F73EE698-E29A-4173-9CDF-F7B09A125C28}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -11,10 +13,14 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{4E2D65FC-6E05-4A16-88F0-42BB4C3CA2DC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{4E2D65FC-6E05-4A16-88F0-42BB4C3CA2DC}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{4E2D65FC-6E05-4A16-88F0-42BB4C3CA2DC}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{4E2D65FC-6E05-4A16-88F0-42BB4C3CA2DC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E2916895-C15A-412D-896F-7F5E179D7620}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E2916895-C15A-412D-896F-7F5E179D7620}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E2916895-C15A-412D-896F-7F5E179D7620}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E2916895-C15A-412D-896F-7F5E179D7620}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F73EE698-E29A-4173-9CDF-F7B09A125C28}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F73EE698-E29A-4173-9CDF-F7B09A125C28}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F73EE698-E29A-4173-9CDF-F7B09A125C28}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F73EE698-E29A-4173-9CDF-F7B09A125C28}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
