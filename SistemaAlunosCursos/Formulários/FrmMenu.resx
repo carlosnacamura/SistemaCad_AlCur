@@ -117,32 +117,37 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
-  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
-  <data name="etecFundo" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\etecFundo.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="cursosIcon" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\cursosIcon.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="alunosIcon" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\alunosIcon.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="btnLogar" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\btnLogar.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="loginConcertado" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Imagens\loginConcertado.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="fundoEtecMelhorado" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\fundoEtecMelhorado.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="login" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Imagens\login.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="RetanguloGordoVermelho" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\RetanguloGordoVermelho.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="fundoEtecCerto" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\fundoEtecCerto.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="$this.Icon" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        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
+</value>
   </data>
 </root>

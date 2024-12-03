@@ -8,3 +8,8 @@ C:\Users\nacam\source\repos\carlosnacamura\SistemaCad_AlCur\SistemaAlunosCursos\
 C:\Users\nacam\source\repos\carlosnacamura\SistemaCad_AlCur\SistemaAlunosCursos\obj\Debug\SistemaAlunosCursos.csproj.CoreCompileInputs.cache
 C:\Users\nacam\source\repos\carlosnacamura\SistemaCad_AlCur\SistemaAlunosCursos\obj\Debug\SistemaAlunosCursos.exe
 C:\Users\nacam\source\repos\carlosnacamura\SistemaCad_AlCur\SistemaAlunosCursos\obj\Debug\SistemaAlunosCursos.pdb
+C:\Users\nacam\source\repos\carlosnacamura\SistemaCad_AlCur\SistemaAlunosCursos\bin\Debug\Model.dll
+C:\Users\nacam\source\repos\carlosnacamura\SistemaCad_AlCur\SistemaAlunosCursos\bin\Debug\Model.pdb
+C:\Users\nacam\source\repos\carlosnacamura\SistemaCad_AlCur\SistemaAlunosCursos\obj\Debug\SistemaA.8ABE47D7.Up2Date
+C:\Users\nacam\source\repos\carlosnacamura\SistemaCad_AlCur\SistemaAlunosCursos\bin\Debug\AlphaBlendTextBox.dll
+C:\Users\nacam\source\repos\carlosnacamura\SistemaCad_AlCur\SistemaAlunosCursos\obj\Debug\SistemaAlunosCursos.Formulários.FrmMenu.resources

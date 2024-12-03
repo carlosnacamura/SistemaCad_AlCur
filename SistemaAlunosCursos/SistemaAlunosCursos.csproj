@@ -33,6 +33,9 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
+    <Reference Include="AlphaBlendTextBox">
+      <HintPath>..\..\..\..\..\Downloads\Imagens\AlphaBlendTextBox.dll</HintPath>
+    </Reference>
     <Reference Include="System" />
     <Reference Include="System.Core" />
     <Reference Include="System.Xml.Linq" />
@@ -46,6 +49,24 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Formulários\Forms Alunos\FrmAlunos.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Formulários\Forms Alunos\FrmAlunos.Designer.cs">
+      <DependentUpon>FrmAlunos.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Formulários\Forms Cursos\FrmCursos.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Formulários\Forms Cursos\FrmCursos.Designer.cs">
+      <DependentUpon>FrmCursos.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Formulários\FrmMenu.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Formulários\FrmMenu.Designer.cs">
+      <DependentUpon>FrmMenu.cs</DependentUpon>
+    </Compile>
     <Compile Include="FrmMain.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -54,6 +75,9 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="Formulários\FrmMenu.resx">
+      <DependentUpon>FrmMenu.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="FrmMain.resx">
       <DependentUpon>FrmMain.cs</DependentUpon>
     </EmbeddedResource>
@@ -65,6 +89,7 @@
     <Compile Include="Properties\Resources.Designer.cs">
       <AutoGen>True</AutoGen>
       <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
     </Compile>
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
@@ -84,6 +109,34 @@
       <Project>{f73ee698-e29a-4173-9cdf-f7b09a125c28}</Project>
       <Name>Model</Name>
     </ProjectReference>
+  </ItemGroup>
+  <ItemGroup />
+  <ItemGroup>
+    <None Include="Imagens\login.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Imagens\loginConcertado.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\btnLogar.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\alunosIcon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\cursosIcon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\etecFundo.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\RetanguloGordoVermelho.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\fundoEtecMelhorado.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\fundoEtecCerto.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
