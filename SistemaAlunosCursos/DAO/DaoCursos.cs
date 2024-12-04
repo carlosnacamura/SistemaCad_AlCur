@@ -33,7 +33,7 @@ namespace SistemaAlunosCursos.DAO
             comando.ExecuteNonQuery();
             Conexao.Close();
         }
-        public DataTable ObterAlunos()
+        public DataTable ObterCursos()
         {
             DataTable dt = new DataTable();
             Conexao.Open();

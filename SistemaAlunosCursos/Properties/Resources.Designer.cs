@@ -83,6 +83,16 @@ namespace SistemaAlunosCursos.Properties {
         /// <summary>
         ///   Consulta um recurso localizado do tipo System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap btnAdicionarCurso {
+            get {
+                object obj = ResourceManager.GetObject("btnAdicionarCurso", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Consulta um recurso localizado do tipo System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap btnCadastrar {
             get {
                 object obj = ResourceManager.GetObject("btnCadastrar", resourceCulture);
@@ -133,6 +143,16 @@ namespace SistemaAlunosCursos.Properties {
         /// <summary>
         ///   Consulta um recurso localizado do tipo System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap fundoCadCursos {
+            get {
+                object obj = ResourceManager.GetObject("fundoCadCursos", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Consulta um recurso localizado do tipo System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap fundoCadEdiAlunos {
             get {
                 object obj = ResourceManager.GetObject("fundoCadEdiAlunos", resourceCulture);
@@ -143,9 +163,29 @@ namespace SistemaAlunosCursos.Properties {
         /// <summary>
         ///   Consulta um recurso localizado do tipo System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap fundoCursos {
+            get {
+                object obj = ResourceManager.GetObject("fundoCursos", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Consulta um recurso localizado do tipo System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap fundoEdiCadAlunos {
             get {
                 object obj = ResourceManager.GetObject("fundoEdiCadAlunos", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Consulta um recurso localizado do tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap fundoEdiCursos {
+            get {
+                object obj = ResourceManager.GetObject("fundoEdiCursos", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }

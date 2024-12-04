@@ -69,11 +69,23 @@
     <Compile Include="Formulários\Forms Alunos\FrmEditarAluno.Designer.cs">
       <DependentUpon>FrmEditarAluno.cs</DependentUpon>
     </Compile>
+    <Compile Include="Formulários\Forms Cursos\FrmCadastrarCurso.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Formulários\Forms Cursos\FrmCadastrarCurso.Designer.cs">
+      <DependentUpon>FrmCadastrarCurso.cs</DependentUpon>
+    </Compile>
     <Compile Include="Formulários\Forms Cursos\FrmCursos.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="Formulários\Forms Cursos\FrmCursos.Designer.cs">
       <DependentUpon>FrmCursos.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Formulários\Forms Cursos\FrmEditarCurso.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Formulários\Forms Cursos\FrmEditarCurso.Designer.cs">
+      <DependentUpon>FrmEditarCurso.cs</DependentUpon>
     </Compile>
     <Compile Include="Formulários\FrmMenu.cs">
       <SubType>Form</SubType>
@@ -97,6 +109,15 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Formulários\Forms Alunos\FrmEditarAluno.resx">
       <DependentUpon>FrmEditarAluno.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Formulários\Forms Cursos\FrmCadastrarCurso.resx">
+      <DependentUpon>FrmCadastrarCurso.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Formulários\Forms Cursos\FrmCursos.resx">
+      <DependentUpon>FrmCursos.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Formulários\Forms Cursos\FrmEditarCurso.resx">
+      <DependentUpon>FrmEditarCurso.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Formulários\FrmMenu.resx">
       <DependentUpon>FrmMenu.cs</DependentUpon>
@@ -177,6 +198,18 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\btnEditar.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\fundoCursos.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\btnAdicionarCurso.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\fundoCadCursos.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\fundoEdiCursos.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
