@@ -1,7 +1,9 @@
 {
   "ExpandedNodes": [
-    ""
+    "",
+    "\\SistemaAlunosCursos",
+    "\\SistemaAlunosCursos\\Formul\u00E1rios"
   ],
-  "SelectedNode": "\\SistemAlunCurs.sln",
+  "SelectedNode": "\\SistemaAlunosCursos\\Formul\u00E1rios\\FrmMenu.cs",
   "PreviewInSolutionExplorer": false
 }

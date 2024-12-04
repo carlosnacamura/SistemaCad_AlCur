@@ -49,11 +49,25 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="DAO\DaoAlunos.cs" />
+    <Compile Include="DAO\DaoCursos.cs" />
     <Compile Include="Formulários\Forms Alunos\FrmAlunos.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="Formulários\Forms Alunos\FrmAlunos.Designer.cs">
       <DependentUpon>FrmAlunos.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Formulários\Forms Alunos\FrmCadastrarAluno.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Formulários\Forms Alunos\FrmCadastrarAluno.Designer.cs">
+      <DependentUpon>FrmCadastrarAluno.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Formulários\Forms Alunos\FrmEditarAluno.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Formulários\Forms Alunos\FrmEditarAluno.Designer.cs">
+      <DependentUpon>FrmEditarAluno.cs</DependentUpon>
     </Compile>
     <Compile Include="Formulários\Forms Cursos\FrmCursos.cs">
       <SubType>Form</SubType>
@@ -75,6 +89,15 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="Formulários\Forms Alunos\FrmAlunos.resx">
+      <DependentUpon>FrmAlunos.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Formulários\Forms Alunos\FrmCadastrarAluno.resx">
+      <DependentUpon>FrmCadastrarAluno.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Formulários\Forms Alunos\FrmEditarAluno.resx">
+      <DependentUpon>FrmEditarAluno.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Formulários\FrmMenu.resx">
       <DependentUpon>FrmMenu.cs</DependentUpon>
     </EmbeddedResource>
@@ -110,7 +133,9 @@
       <Name>Model</Name>
     </ProjectReference>
   </ItemGroup>
-  <ItemGroup />
+  <ItemGroup>
+    <None Include="Resources\txtPesquisar.png" />
+  </ItemGroup>
   <ItemGroup>
     <None Include="Imagens\login.png" />
   </ItemGroup>
@@ -137,6 +162,21 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\fundoEtecCerto.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\btnAdicionarAluno.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\fundoCadEdiAlunos.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\btnCadastrar.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\fundoEdiCadAlunos.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\btnEditar.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

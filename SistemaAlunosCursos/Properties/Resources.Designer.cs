@@ -73,6 +73,36 @@ namespace SistemaAlunosCursos.Properties {
         /// <summary>
         ///   Consulta um recurso localizado do tipo System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap btnAdicionarAluno {
+            get {
+                object obj = ResourceManager.GetObject("btnAdicionarAluno", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Consulta um recurso localizado do tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap btnCadastrar {
+            get {
+                object obj = ResourceManager.GetObject("btnCadastrar", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Consulta um recurso localizado do tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap btnEditar {
+            get {
+                object obj = ResourceManager.GetObject("btnEditar", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Consulta um recurso localizado do tipo System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap btnLogar {
             get {
                 object obj = ResourceManager.GetObject("btnLogar", resourceCulture);
@@ -96,6 +126,26 @@ namespace SistemaAlunosCursos.Properties {
         internal static System.Drawing.Bitmap etecFundo {
             get {
                 object obj = ResourceManager.GetObject("etecFundo", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Consulta um recurso localizado do tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap fundoCadEdiAlunos {
+            get {
+                object obj = ResourceManager.GetObject("fundoCadEdiAlunos", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Consulta um recurso localizado do tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap fundoEdiCadAlunos {
+            get {
+                object obj = ResourceManager.GetObject("fundoEdiCadAlunos", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -146,6 +196,16 @@ namespace SistemaAlunosCursos.Properties {
         internal static System.Drawing.Bitmap RetanguloGordoVermelho {
             get {
                 object obj = ResourceManager.GetObject("RetanguloGordoVermelho", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Consulta um recurso localizado do tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap txtPesquisar {
+            get {
+                object obj = ResourceManager.GetObject("txtPesquisar", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }

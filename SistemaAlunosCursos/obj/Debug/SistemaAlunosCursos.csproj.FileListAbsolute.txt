@@ -11,5 +11,7 @@ C:\Users\nacam\source\repos\carlosnacamura\SistemaCad_AlCur\SistemaAlunosCursos\
 C:\Users\nacam\source\repos\carlosnacamura\SistemaCad_AlCur\SistemaAlunosCursos\bin\Debug\Model.dll
 C:\Users\nacam\source\repos\carlosnacamura\SistemaCad_AlCur\SistemaAlunosCursos\bin\Debug\Model.pdb
 C:\Users\nacam\source\repos\carlosnacamura\SistemaCad_AlCur\SistemaAlunosCursos\obj\Debug\SistemaA.8ABE47D7.Up2Date
-C:\Users\nacam\source\repos\carlosnacamura\SistemaCad_AlCur\SistemaAlunosCursos\bin\Debug\AlphaBlendTextBox.dll
 C:\Users\nacam\source\repos\carlosnacamura\SistemaCad_AlCur\SistemaAlunosCursos\obj\Debug\SistemaAlunosCursos.Formulários.FrmMenu.resources
+C:\Users\nacam\source\repos\carlosnacamura\SistemaCad_AlCur\SistemaAlunosCursos\obj\Debug\SistemaAlunosCursos.Formulários.Forms_Alunos.FrmAlunos.resources
+C:\Users\nacam\source\repos\carlosnacamura\SistemaCad_AlCur\SistemaAlunosCursos\obj\Debug\SistemaAlunosCursos.Formulários.Forms_Alunos.FrmCadastrarAluno.resources
+C:\Users\nacam\source\repos\carlosnacamura\SistemaCad_AlCur\SistemaAlunosCursos\obj\Debug\SistemaAlunosCursos.Formulários.Forms_Alunos.FrmEditarAluno.resources
