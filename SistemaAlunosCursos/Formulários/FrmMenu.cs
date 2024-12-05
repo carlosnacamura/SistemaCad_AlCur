@@ -7,16 +7,20 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using SistemaAlunosCursos.DAO;
 using SistemaAlunosCursos.Formulários.Forms_Alunos;
 using SistemaAlunosCursos.Formulários.Forms_Cursos;
 
 namespace SistemaAlunosCursos.Formulários
 {
+   
     public partial class FrmMenu : Form
     {
+        DaoUsuarios dao = new DaoUsuarios();
         public FrmMenu()
         {
             InitializeComponent();
+            
         }
 
 

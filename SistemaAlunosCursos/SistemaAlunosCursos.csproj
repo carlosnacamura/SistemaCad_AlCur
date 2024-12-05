@@ -51,6 +51,7 @@
   <ItemGroup>
     <Compile Include="DAO\DaoAlunos.cs" />
     <Compile Include="DAO\DaoCursos.cs" />
+    <Compile Include="DAO\DaoUsuarios.cs" />
     <Compile Include="Formulários\Forms Alunos\FrmAlunos.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -210,6 +211,9 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\fundoEdiCursos.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\fundoEdiAlunoMelhorado.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

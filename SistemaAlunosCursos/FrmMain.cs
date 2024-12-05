@@ -1,11 +1,14 @@
 ﻿using System;
 using System.Windows.Forms;
+using Model.Entidades;
+using SistemaAlunosCursos.DAO;
 using SistemaAlunosCursos.Formulários;
 
 namespace SistemaAlunosCursos
 {
     public partial class FrmMain : Form
     {
+        DaoUsuarios dao = new DaoUsuarios();
         public FrmMain()
         {
             InitializeComponent();
@@ -15,20 +18,25 @@ namespace SistemaAlunosCursos
         {
 
         }
+        private void FecharForm(object sender, FormClosedEventArgs e)
+        {
+            Visible = true;
+        }
         private void btnEntrar_Click(object sender, EventArgs e)
         {
-            string user = "user";
-            string senha = "112233";
-
-            if (txtNome.Text == user && txtSenha.Text == senha)
+            if (dao.UsuarioConfirmado(txtNome.Text,txtSenha.Text))
             {
-                FrmMenu i = new FrmMenu();
-                i.ShowDialog();
-                this.Close();
+                FrmMenu menu = new FrmMenu();
+                menu.FormClosed += FecharForm;
+                this.Hide();
+                txtNome.Text = "";
+                txtSenha.Text = "";
+                txtNome.Focus();
+                menu.Show();
             }
             else
             {
-                MessageBox.Show("Por favor coloque um usuário válido", "Usuário Inválido",MessageBoxButtons.OK, MessageBoxIcon.Error);
+                MessageBox.Show("Usuário e senha inválidos", "Erro", MessageBoxButtons.OK, MessageBoxIcon.Error);
             }
         }
     }
