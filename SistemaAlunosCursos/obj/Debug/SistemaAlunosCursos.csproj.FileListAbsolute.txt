@@ -18,3 +18,4 @@ C:\Users\nacam\source\repos\carlosnacamura\SistemaCad_AlCur\SistemaAlunosCursos\
 C:\Users\nacam\source\repos\carlosnacamura\SistemaCad_AlCur\SistemaAlunosCursos\obj\Debug\SistemaAlunosCursos.Formulários.Forms_Cursos.FrmCadastrarCurso.resources
 C:\Users\nacam\source\repos\carlosnacamura\SistemaCad_AlCur\SistemaAlunosCursos\obj\Debug\SistemaAlunosCursos.Formulários.Forms_Cursos.FrmCursos.resources
 C:\Users\nacam\source\repos\carlosnacamura\SistemaCad_AlCur\SistemaAlunosCursos\obj\Debug\SistemaAlunosCursos.Formulários.Forms_Cursos.FrmEditarCurso.resources
+C:\Users\nacam\source\repos\carlosnacamura\SistemaCad_AlCur\SistemaAlunosCursos\obj\Debug\SistemaAlunosCursos.Formulários.Forms_Usuarios.FrmCadastrarUsuario.resources

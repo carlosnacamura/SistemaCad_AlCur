@@ -35,5 +35,23 @@ namespace SistemaAlunosCursos.DAO
                 return false;
             }
         }
+
+        public void Inserir(string nome, string senha)
+        {
+            EntidadeUsuarios u = new EntidadeUsuarios(nome,senha);
+            Conexao.Open();
+            string query = "Insert into USUARIOS (NOME , SENHA) " +
+                "               Values (@nome, @senha) ";
+            SqlCommand comando = new SqlCommand(query, Conexao);
+
+            SqlParameter parametro1 = new SqlParameter("@nome", u.NOME);
+            SqlParameter parametro2 = new SqlParameter("@senha", u.SENHA);
+
+            comando.Parameters.Add(parametro1);
+            comando.Parameters.Add(parametro2);
+            comando.ExecuteNonQuery();
+            Conexao.Close();
+        }
+
     }
 }

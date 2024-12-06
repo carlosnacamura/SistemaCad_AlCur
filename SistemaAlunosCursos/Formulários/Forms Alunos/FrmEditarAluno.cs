@@ -79,10 +79,48 @@ namespace SistemaAlunosCursos.Formulários.Forms_Alunos
                 MessageBox.Show("Erro ao atualizar", "Erro", MessageBoxButtons.OK, MessageBoxIcon.Error);
             }
         }
+        private void btnExcluir_Click(object sender, EventArgs e)
+        {
+            string query = "Delete from ALUNOS WHERE ID_ALUNO = @id";
+
+            Conexao = new SqlConnection(LinhaConexao);
+            Conexao.Open();
+
+            DialogResult resultado = MessageBox.Show("Tem certeza de que deseja excluir este aluno? Esta ação não pode ser revertida.",
+                                                     "Confirmação de Exclusão",
+                                                     MessageBoxButtons.YesNo,
+                                                     MessageBoxIcon.Warning);
+
+            if (resultado == DialogResult.Yes)
+            {
+                SqlCommand comando = new SqlCommand(query, Conexao);
+                comando.Parameters.Add(new SqlParameter("@id", label_id.Text));
+
+                int resposta = comando.ExecuteNonQuery();
+
+                if (resposta == 1)
+                {
+                    MessageBox.Show("Aluno(a) excluído com sucesso", "Sucesso", MessageBoxButtons.OK, MessageBoxIcon.Information);
+                    this.Close(); 
+                }
+                else
+                {
+                    MessageBox.Show("Erro ao excluir", "Erro", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                }
+            }
+            else
+            {
+                MessageBox.Show("Exclusão cancelada.", "Cancelado", MessageBoxButtons.OK, MessageBoxIcon.Information);
+            }
+
+
+        }
 
         private void FrmEditarAluno_Load(object sender, EventArgs e)
         {
 
         }
+
+        
     }
 }

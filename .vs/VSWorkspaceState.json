@@ -1,10 +1,9 @@
 {
   "ExpandedNodes": [
     "",
-    "\\SistemaAlunosCursos",
-    "\\SistemaAlunosCursos\\Formul\u00E1rios",
-    "\\SistemaAlunosCursos\\Formul\u00E1rios\\Forms Cursos"
+    "\\Model",
+    "\\Model\\Entidades"
   ],
-  "SelectedNode": "\\SistemaAlunosCursos\\Formul\u00E1rios\\Forms Cursos\\FrmCursos.cs",
+  "SelectedNode": "\\Model\\Entidades\\EntidadeUsuarios.cs",
   "PreviewInSolutionExplorer": false
 }

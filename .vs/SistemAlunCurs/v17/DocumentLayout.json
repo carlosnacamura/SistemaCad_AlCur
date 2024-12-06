@@ -1,24 +1,7 @@
 {
   "Version": 1,
   "WorkspaceRootPath": "C:\\Users\\nacam\\source\\repos\\carlosnacamura\\SistemaCad_AlCur\\",
-  "Documents": [
-    {
-      "AbsoluteMoniker": "D:0:0:{F73EE698-E29A-4173-9CDF-F7B09A125C28}|Model\\Model.csproj|c:\\users\\nacam\\source\\repos\\carlosnacamura\\sistemacad_alcur\\model\\entidades\\entidadeusuarios.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F73EE698-E29A-4173-9CDF-F7B09A125C28}|Model\\Model.csproj|solutionrelative:model\\entidades\\entidadeusuarios.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{F73EE698-E29A-4173-9CDF-F7B09A125C28}|Model\\Model.csproj|C:\\Users\\nacam\\source\\repos\\carlosnacamura\\SistemaCad_AlCur\\model\\entidades\\entidadecursos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F73EE698-E29A-4173-9CDF-F7B09A125C28}|Model\\Model.csproj|solutionrelative:model\\entidades\\entidadecursos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E2916895-C15A-412D-896F-7F5E179D7620}|SistemaAlunosCursos\\SistemaAlunosCursos.csproj|C:\\Users\\nacam\\source\\repos\\carlosnacamura\\SistemaCad_AlCur\\sistemaalunoscursos\\dao\\daousuarios.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E2916895-C15A-412D-896F-7F5E179D7620}|SistemaAlunosCursos\\SistemaAlunosCursos.csproj|solutionrelative:sistemaalunoscursos\\dao\\daousuarios.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E2916895-C15A-412D-896F-7F5E179D7620}|SistemaAlunosCursos\\SistemaAlunosCursos.csproj|C:\\Users\\nacam\\source\\repos\\carlosnacamura\\SistemaCad_AlCur\\sistemaalunoscursos\\frmmain.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E2916895-C15A-412D-896F-7F5E179D7620}|SistemaAlunosCursos\\SistemaAlunosCursos.csproj|solutionrelative:sistemaalunoscursos\\frmmain.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    }
-  ],
+  "Documents": [],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
@@ -26,62 +9,11 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 3,
+          "SelectedChildIndex": -1,
           "Children": [
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "FrmMain.cs",
-              "DocumentMoniker": "C:\\Users\\nacam\\source\\repos\\carlosnacamura\\SistemaCad_AlCur\\SistemaAlunosCursos\\FrmMain.cs",
-              "RelativeDocumentMoniker": "SistemaAlunosCursos\\FrmMain.cs",
-              "ToolTip": "C:\\Users\\nacam\\source\\repos\\carlosnacamura\\SistemaCad_AlCur\\SistemaAlunosCursos\\FrmMain.cs",
-              "RelativeToolTip": "SistemaAlunosCursos\\FrmMain.cs",
-              "ViewState": "AgIAAAYAAAAAAAAAAAAAAB4AAAAcAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-04T22:24:40.015Z",
-              "IsPinned": true
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "DaoUsuarios.cs",
-              "DocumentMoniker": "C:\\Users\\nacam\\source\\repos\\carlosnacamura\\SistemaCad_AlCur\\SistemaAlunosCursos\\DAO\\DaoUsuarios.cs",
-              "RelativeDocumentMoniker": "SistemaAlunosCursos\\DAO\\DaoUsuarios.cs",
-              "ToolTip": "C:\\Users\\nacam\\source\\repos\\carlosnacamura\\SistemaCad_AlCur\\SistemaAlunosCursos\\DAO\\DaoUsuarios.cs",
-              "RelativeToolTip": "SistemaAlunosCursos\\DAO\\DaoUsuarios.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAACQAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-04T23:14:43.482Z",
-              "IsPinned": true
-            },
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "EntidadeUsuarios.cs",
-              "DocumentMoniker": "C:\\Users\\nacam\\source\\repos\\carlosnacamura\\SistemaCad_AlCur\\Model\\Entidades\\EntidadeUsuarios.cs",
-              "RelativeDocumentMoniker": "Model\\Entidades\\EntidadeUsuarios.cs",
-              "ToolTip": "C:\\Users\\nacam\\source\\repos\\carlosnacamura\\SistemaCad_AlCur\\Model\\Entidades\\EntidadeUsuarios.cs",
-              "RelativeToolTip": "Model\\Entidades\\EntidadeUsuarios.cs",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAAAA0AAAAqAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-05T00:05:57.603Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "EntidadeCursos.cs",
-              "DocumentMoniker": "C:\\Users\\nacam\\source\\repos\\carlosnacamura\\SistemaCad_AlCur\\Model\\Entidades\\EntidadeCursos.cs",
-              "RelativeDocumentMoniker": "Model\\Entidades\\EntidadeCursos.cs",
-              "ToolTip": "C:\\Users\\nacam\\source\\repos\\carlosnacamura\\SistemaCad_AlCur\\Model\\Entidades\\EntidadeCursos.cs",
-              "RelativeToolTip": "Model\\Entidades\\EntidadeCursos.cs",
-              "ViewState": "AgIAAAYAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-05T00:05:52.6Z"
             }
           ]
         }

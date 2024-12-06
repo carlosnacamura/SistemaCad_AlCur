@@ -35,8 +35,10 @@
             this.txtEmail = new ZBobb.AlphaBlendTextBox();
             this.txtNome = new ZBobb.AlphaBlendTextBox();
             this.btnEditar = new System.Windows.Forms.PictureBox();
+            this.btnExcluir = new System.Windows.Forms.PictureBox();
             ((System.ComponentModel.ISupportInitialize)(this.numIdade)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.btnEditar)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.btnExcluir)).BeginInit();
             this.SuspendLayout();
             // 
             // label_id
@@ -95,13 +97,27 @@
             this.btnEditar.BackColor = System.Drawing.Color.Transparent;
             this.btnEditar.Cursor = System.Windows.Forms.Cursors.Hand;
             this.btnEditar.Image = global::SistemaAlunosCursos.Properties.Resources.btnEditar;
-            this.btnEditar.Location = new System.Drawing.Point(58, 515);
+            this.btnEditar.Location = new System.Drawing.Point(45, 508);
             this.btnEditar.Name = "btnEditar";
-            this.btnEditar.Size = new System.Drawing.Size(331, 104);
+            this.btnEditar.Size = new System.Drawing.Size(162, 47);
             this.btnEditar.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.btnEditar.TabIndex = 6;
             this.btnEditar.TabStop = false;
             this.btnEditar.Click += new System.EventHandler(this.btnEditar_Click);
+            // 
+            // btnExcluir
+            // 
+            this.btnExcluir.BackColor = System.Drawing.Color.Transparent;
+            this.btnExcluir.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
+            this.btnExcluir.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.btnExcluir.Image = global::SistemaAlunosCursos.Properties.Resources.btnExcluir;
+            this.btnExcluir.Location = new System.Drawing.Point(244, 508);
+            this.btnExcluir.Name = "btnExcluir";
+            this.btnExcluir.Size = new System.Drawing.Size(162, 47);
+            this.btnExcluir.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.btnExcluir.TabIndex = 12;
+            this.btnExcluir.TabStop = false;
+            this.btnExcluir.Click += new System.EventHandler(this.btnExcluir_Click);
             // 
             // FrmEditarAluno
             // 
@@ -110,6 +126,7 @@
             this.BackgroundImage = global::SistemaAlunosCursos.Properties.Resources.fundoEdiAlunoMelhorado;
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.ClientSize = new System.Drawing.Size(439, 631);
+            this.Controls.Add(this.btnExcluir);
             this.Controls.Add(this.label_id);
             this.Controls.Add(this.cbCursos);
             this.Controls.Add(this.numIdade);
@@ -124,6 +141,7 @@
             this.Load += new System.EventHandler(this.FrmEditarAluno_Load);
             ((System.ComponentModel.ISupportInitialize)(this.numIdade)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.btnEditar)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.btnExcluir)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -137,5 +155,6 @@
         private ZBobb.AlphaBlendTextBox txtEmail;
         private ZBobb.AlphaBlendTextBox txtNome;
         private System.Windows.Forms.PictureBox btnEditar;
+        private System.Windows.Forms.PictureBox btnExcluir;
     }
 }

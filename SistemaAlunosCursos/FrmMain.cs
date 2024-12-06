@@ -3,6 +3,7 @@ using System.Windows.Forms;
 using Model.Entidades;
 using SistemaAlunosCursos.DAO;
 using SistemaAlunosCursos.Formulários;
+using SistemaAlunosCursos.Formulários.Forms_Usuarios;
 
 namespace SistemaAlunosCursos
 {
@@ -18,7 +19,7 @@ namespace SistemaAlunosCursos
         {
 
         }
-        private void FecharForm(object sender, FormClosedEventArgs e)
+        public void FecharForm(object sender, FormClosedEventArgs e)
         {
             Visible = true;
         }
@@ -38,6 +39,12 @@ namespace SistemaAlunosCursos
             {
                 MessageBox.Show("Usuário e senha inválidos", "Erro", MessageBoxButtons.OK, MessageBoxIcon.Error);
             }
+        }
+
+        private void lblAdicionarUsuario_Click(object sender, EventArgs e)
+        {
+            FrmCadastrarUsuario cu = new FrmCadastrarUsuario();
+            cu.Show();
         }
     }
 }

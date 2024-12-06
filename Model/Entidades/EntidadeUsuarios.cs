@@ -8,6 +8,7 @@ namespace Model.Entidades
 {
     public class EntidadeUsuarios
     {
+        public int ID_USUARIOS { get; set; }
         public string NOME { get; set; }
         public string SENHA { get; set; }
 
@@ -18,7 +19,7 @@ namespace Model.Entidades
         }
         public object[] Linha()
         {
-            return new object[] { NOME,SENHA};
+            return new object[] { ID_USUARIOS,NOME,SENHA};
         }
     }
 }

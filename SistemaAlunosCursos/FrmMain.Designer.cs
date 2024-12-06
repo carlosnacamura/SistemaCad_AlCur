@@ -32,6 +32,7 @@
             this.txtNome = new ZBobb.AlphaBlendTextBox();
             this.txtSenha = new ZBobb.AlphaBlendTextBox();
             this.btnEntrar = new System.Windows.Forms.PictureBox();
+            this.lblAdicionarUsuario = new System.Windows.Forms.Label();
             ((System.ComponentModel.ISupportInitialize)(this.btnEntrar)).BeginInit();
             this.SuspendLayout();
             // 
@@ -55,9 +56,11 @@
             this.txtSenha.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.txtSenha.Font = new System.Drawing.Font("Microsoft Sans Serif", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txtSenha.ForeColor = System.Drawing.Color.White;
+            this.txtSenha.HideSelection = false;
             this.txtSenha.Location = new System.Drawing.Point(853, 418);
             this.txtSenha.Multiline = true;
             this.txtSenha.Name = "txtSenha";
+            this.txtSenha.PasswordChar = '*';
             this.txtSenha.Size = new System.Drawing.Size(375, 41);
             this.txtSenha.TabIndex = 3;
             // 
@@ -74,6 +77,20 @@
             this.btnEntrar.TabStop = false;
             this.btnEntrar.Click += new System.EventHandler(this.btnEntrar_Click);
             // 
+            // lblAdicionarUsuario
+            // 
+            this.lblAdicionarUsuario.AutoSize = true;
+            this.lblAdicionarUsuario.BackColor = System.Drawing.Color.Transparent;
+            this.lblAdicionarUsuario.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.lblAdicionarUsuario.Font = new System.Drawing.Font("Microsoft Sans Serif", 13.8F, System.Drawing.FontStyle.Underline, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblAdicionarUsuario.ForeColor = System.Drawing.Color.White;
+            this.lblAdicionarUsuario.Location = new System.Drawing.Point(913, 626);
+            this.lblAdicionarUsuario.Name = "lblAdicionarUsuario";
+            this.lblAdicionarUsuario.Size = new System.Drawing.Size(257, 29);
+            this.lblAdicionarUsuario.TabIndex = 5;
+            this.lblAdicionarUsuario.Text = "Adicionar novo usuário";
+            this.lblAdicionarUsuario.Click += new System.EventHandler(this.lblAdicionarUsuario_Click);
+            // 
             // FrmMain
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
@@ -81,6 +98,7 @@
             this.BackgroundImage = global::SistemaAlunosCursos.Properties.Resources.loginConcertado;
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.ClientSize = new System.Drawing.Size(1312, 687);
+            this.Controls.Add(this.lblAdicionarUsuario);
             this.Controls.Add(this.btnEntrar);
             this.Controls.Add(this.txtSenha);
             this.Controls.Add(this.txtNome);
@@ -102,6 +120,7 @@
         private ZBobb.AlphaBlendTextBox txtNome;
         private ZBobb.AlphaBlendTextBox txtSenha;
         private System.Windows.Forms.PictureBox btnEntrar;
+        private System.Windows.Forms.Label lblAdicionarUsuario;
     }
 }
 

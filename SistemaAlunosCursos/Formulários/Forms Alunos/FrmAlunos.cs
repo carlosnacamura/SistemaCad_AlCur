@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Data;
+using System.Data.SqlClient;
 using System.Windows.Forms;
 using Model.Entidades;
 using SistemaAlunosCursos.DAO;
@@ -62,7 +63,5 @@ namespace SistemaAlunosCursos.Formulários.Forms_Alunos
             cadastro.FormClosed += Fechou_Editar_FormClosed;
             cadastro.ShowDialog();
         }
-
-
     }
 }

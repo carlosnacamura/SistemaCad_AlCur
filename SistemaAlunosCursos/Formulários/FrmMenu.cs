@@ -17,6 +17,7 @@ namespace SistemaAlunosCursos.Formulários
     public partial class FrmMenu : Form
     {
         DaoUsuarios dao = new DaoUsuarios();
+        FrmMain main = new FrmMain();
         public FrmMenu()
         {
             InitializeComponent();
@@ -28,17 +29,24 @@ namespace SistemaAlunosCursos.Formulários
         {
 
         }
-
+        public void FecharForm(object sender, FormClosedEventArgs e)
+        {
+            Visible = true;
+        }
         private void btnAlunos_Click(object sender, EventArgs e)
         {
             FrmAlunos a = new FrmAlunos();
-            a.ShowDialog();
+            a.Show();
+            a.FormClosed += FecharForm;
+            this.Hide();
         }
 
         private void btnCursos_Click(object sender, EventArgs e)
         {
             FrmCursos c = new FrmCursos();
-            c.ShowDialog();
+            c.Show();
+            c.FormClosed += FecharForm;
+            this.Hide();
         }
 
         private void pictureBox1_Click(object sender, EventArgs e)

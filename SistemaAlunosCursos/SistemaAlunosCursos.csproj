@@ -88,6 +88,12 @@
     <Compile Include="Formulários\Forms Cursos\FrmEditarCurso.Designer.cs">
       <DependentUpon>FrmEditarCurso.cs</DependentUpon>
     </Compile>
+    <Compile Include="Formulários\Forms Usuarios\FrmCadastrarUsuario.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Formulários\Forms Usuarios\FrmCadastrarUsuario.Designer.cs">
+      <DependentUpon>FrmCadastrarUsuario.cs</DependentUpon>
+    </Compile>
     <Compile Include="Formulários\FrmMenu.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -119,6 +125,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Formulários\Forms Cursos\FrmEditarCurso.resx">
       <DependentUpon>FrmEditarCurso.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Formulários\Forms Usuarios\FrmCadastrarUsuario.resx">
+      <DependentUpon>FrmCadastrarUsuario.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Formulários\FrmMenu.resx">
       <DependentUpon>FrmMenu.cs</DependentUpon>
@@ -214,6 +223,12 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\fundoEdiAlunoMelhorado.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\fundoCadUsuarios.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\btnExcluir.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

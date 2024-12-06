@@ -5,6 +5,7 @@ using System.Data.SqlClient;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using System.Windows.Forms;
 using Model.Entidades;
 
 namespace SistemaAlunosCursos.DAO
@@ -132,6 +133,25 @@ namespace SistemaAlunosCursos.DAO
             Conexao.Close();
             return dt;
 
+        }
+
+        public void Excluir()
+        {
+            EntidadeAlunos alunos = new EntidadeAlunos();
+            string query = "Delete from ALUNOS WHERE ID_ALUNO = @id";
+            Conexao.Open();
+            SqlCommand comando = new SqlCommand(query, Conexao);
+            comando.Parameters.Add(new SqlParameter("@id",alunos.ID_ALUNO));
+            int resposta = comando.ExecuteNonQuery();
+            if (resposta == 1)
+            {
+                MessageBox.Show("Usuário Excluído com sucesso", "Sucesso", MessageBoxButtons.OK, MessageBoxIcon.Information);
+            }
+            else
+            {
+                MessageBox.Show("Erro ao excluir", "Erro", MessageBoxButtons.OK, MessageBoxIcon.Error);
+            }
+            Conexao.Close();
         }
     }
 }

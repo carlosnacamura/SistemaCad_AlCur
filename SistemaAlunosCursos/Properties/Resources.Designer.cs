@@ -113,6 +113,16 @@ namespace SistemaAlunosCursos.Properties {
         /// <summary>
         ///   Consulta um recurso localizado do tipo System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap btnExcluir {
+            get {
+                object obj = ResourceManager.GetObject("btnExcluir", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Consulta um recurso localizado do tipo System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap btnLogar {
             get {
                 object obj = ResourceManager.GetObject("btnLogar", resourceCulture);
@@ -156,6 +166,16 @@ namespace SistemaAlunosCursos.Properties {
         internal static System.Drawing.Bitmap fundoCadEdiAlunos {
             get {
                 object obj = ResourceManager.GetObject("fundoCadEdiAlunos", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Consulta um recurso localizado do tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap fundoCadUsuarios {
+            get {
+                object obj = ResourceManager.GetObject("fundoCadUsuarios", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
