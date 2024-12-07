@@ -42,7 +42,22 @@ namespace SistemaAlunosCursos.DAO
         {
             DataTable dt = new DataTable();
             Conexao.Open();
-            string query = "Select * From ALUNOS Order BY ID_ALUNO desc";
+            string query = @"SELECT 
+                            ALUNOS.ID_ALUNO,
+                            ALUNOS.NOME,
+                            ALUNOS.IDADE,
+                            ALUNOS.EMAIL,
+                            ALUNOS.ID_CURSO,
+                            CURSOS.NOME_CUR
+                            FROM 
+                                ALUNOS
+                            INNER JOIN 
+                                CURSOS
+                            ON 
+                                ALUNOS.ID_CURSO = CURSOS.ID_CURSO
+                            ORDER BY 
+                                 ID_ALUNO DESC;";
+            //string query = "SELECT * FROM ALUNOS ORDER BY ID_ALUNO";
             SqlCommand comando = new SqlCommand(query, Conexao);
             SqlDataReader leitura = comando.ExecuteReader();
             foreach (var atributos in typeof(EntidadeAlunos).GetProperties())
@@ -58,7 +73,9 @@ namespace SistemaAlunosCursos.DAO
                     aluno.NOME = leitura[1].ToString();
                     aluno.IDADE = Convert.ToInt32(leitura[2]);
                     aluno.EMAIL = leitura[3].ToString();
-                    aluno.ID_CURSO= Convert.ToInt32(leitura[4]);
+                    aluno.ID_CURSO = Convert.ToInt32(leitura[4]);
+                    aluno.NOME_CUR = leitura[5].ToString();
+
                     dt.Rows.Add(aluno.Linha());
 
 
@@ -100,13 +117,40 @@ namespace SistemaAlunosCursos.DAO
 
             if (string.IsNullOrEmpty(pesquisar))
             {
-                query = "SELECT * FROM ALUNOS order by ID_ALUNO desc";
+                query = @"SELECT 
+                            ALUNOS.ID_ALUNO,
+                            ALUNOS.NOME,
+                            ALUNOS.IDADE,
+                            ALUNOS.EMAIL,
+                            ALUNOS.ID_CURSO,
+                            CURSOS.NOME_CUR
+                            FROM 
+                                ALUNOS
+                            INNER JOIN 
+                                CURSOS
+                            ON 
+                                ALUNOS.ID_CURSO = CURSOS.ID_CURSO
+                            ORDER BY 
+                                 ID_ALUNO DESC;";
             }
             else
             {
-                query = $@"SELECT * FROM ALUNOS 
+                query = $@"SELECT 
+                            ALUNOS.ID_ALUNO,
+                            ALUNOS.NOME,
+                            ALUNOS.IDADE,
+                            ALUNOS.EMAIL,
+                            ALUNOS.ID_CURSO,
+                            CURSOS.NOME_CUR
+                            FROM 
+                                ALUNOS
+                            INNER JOIN 
+                                CURSOS
+                            ON 
+                                ALUNOS.ID_CURSO = CURSOS.ID_CURSO
                             where NOME LIKE '%{pesquisar}%' OR
-                            EMAIL LIKE '%{pesquisar}%'
+                            EMAIL LIKE '%{pesquisar}%' OR
+                            CURSOS.NOME_CUR LIKE '%{pesquisar}%'
                             Order by ID_ALUNO desc";
             }
 
@@ -127,6 +171,7 @@ namespace SistemaAlunosCursos.DAO
                     aluno.IDADE = Convert.ToInt32(leitura[2]);
                     aluno.EMAIL = leitura[3].ToString();
                     aluno.ID_CURSO = Convert.ToInt32(leitura[4]);
+                    aluno.NOME_CUR = leitura[5].ToString();
                     dt.Rows.Add(aluno.Linha());
                 }
             }

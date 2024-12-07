@@ -40,8 +40,8 @@ namespace SistemaAlunosCursos.DAO
         {
             EntidadeUsuarios u = new EntidadeUsuarios(nome,senha);
             Conexao.Open();
-            string query = "Insert into USUARIOS (NOME , SENHA) " +
-                "               Values (@nome, @senha) ";
+            string query = @"Insert into USUARIOS (NOME , SENHA) 
+                             Values (@nome, @senha) ";
             SqlCommand comando = new SqlCommand(query, Conexao);
 
             SqlParameter parametro1 = new SqlParameter("@nome", u.NOME);

@@ -27,9 +27,16 @@ namespace SistemaAlunosCursos.Formulários.Forms_Usuarios
         private void btnCadastrar_Click(object sender, EventArgs e)
         {
             DaoUsuarios dao = new DaoUsuarios();
-            dao.Inserir(txtNome.Text,txtSenha.Text);
-            MessageBox.Show("Cadastro feito com sucesso", "Cadastrado",MessageBoxButtons.OK, MessageBoxIcon.Information);
-            this.Close();
+            if (txtSenha.Text == txtConfirmSenha.Text) 
+            {
+                dao.Inserir(txtNome.Text, txtSenha.Text);
+                MessageBox.Show("Cadastro feito com sucesso", "Cadastrado", MessageBoxButtons.OK, MessageBoxIcon.Information);
+                this.Close();
+            }
+            else
+            {
+                MessageBox.Show("As senhas não coincidem", "Senha incorreta", MessageBoxButtons.OK, MessageBoxIcon.Error);
+            }
         }
     }
 }

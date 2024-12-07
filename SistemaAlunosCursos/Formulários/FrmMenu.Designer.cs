@@ -35,6 +35,7 @@
             this.panel2 = new System.Windows.Forms.Panel();
             this.lblNomeUser = new System.Windows.Forms.Label();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
+            this.label2 = new System.Windows.Forms.Label();
             this.panel1.SuspendLayout();
             this.panel2.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
@@ -49,15 +50,15 @@
             this.panel1.Dock = System.Windows.Forms.DockStyle.Left;
             this.panel1.Location = new System.Drawing.Point(0, 0);
             this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(200, 670);
+            this.panel1.Size = new System.Drawing.Size(288, 670);
             this.panel1.TabIndex = 0;
             // 
             // btnCursos
             // 
             this.btnCursos.Image = global::SistemaAlunosCursos.Properties.Resources.cursosIcon;
-            this.btnCursos.Location = new System.Drawing.Point(0, 242);
+            this.btnCursos.Location = new System.Drawing.Point(0, 312);
             this.btnCursos.Name = "btnCursos";
-            this.btnCursos.Size = new System.Drawing.Size(200, 49);
+            this.btnCursos.Size = new System.Drawing.Size(288, 49);
             this.btnCursos.TabIndex = 2;
             this.btnCursos.Text = "Cursos";
             this.btnCursos.TextImageRelation = System.Windows.Forms.TextImageRelation.TextBeforeImage;
@@ -67,9 +68,9 @@
             // btnAlunos
             // 
             this.btnAlunos.Image = global::SistemaAlunosCursos.Properties.Resources.alunosIcon;
-            this.btnAlunos.Location = new System.Drawing.Point(0, 164);
+            this.btnAlunos.Location = new System.Drawing.Point(0, 217);
             this.btnAlunos.Name = "btnAlunos";
-            this.btnAlunos.Size = new System.Drawing.Size(200, 49);
+            this.btnAlunos.Size = new System.Drawing.Size(288, 49);
             this.btnAlunos.TabIndex = 1;
             this.btnAlunos.Text = "Alunos";
             this.btnAlunos.TextImageRelation = System.Windows.Forms.TextImageRelation.TextBeforeImage;
@@ -78,19 +79,21 @@
             // 
             // panel2
             // 
+            this.panel2.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.panel2.Controls.Add(this.label2);
             this.panel2.Controls.Add(this.lblNomeUser);
             this.panel2.Location = new System.Drawing.Point(-11, 0);
             this.panel2.Name = "panel2";
-            this.panel2.Size = new System.Drawing.Size(211, 142);
+            this.panel2.Size = new System.Drawing.Size(299, 173);
             this.panel2.TabIndex = 1;
             // 
             // lblNomeUser
             // 
             this.lblNomeUser.AutoSize = true;
-            this.lblNomeUser.Font = new System.Drawing.Font("Microsoft Sans Serif", 19.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblNomeUser.Location = new System.Drawing.Point(63, 93);
+            this.lblNomeUser.Font = new System.Drawing.Font("Microsoft Sans Serif", 16.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblNomeUser.Location = new System.Drawing.Point(120, 131);
             this.lblNomeUser.Name = "lblNomeUser";
-            this.lblNomeUser.Size = new System.Drawing.Size(87, 38);
+            this.lblNomeUser.Size = new System.Drawing.Size(73, 32);
             this.lblNomeUser.TabIndex = 1;
             this.lblNomeUser.Text = "User";
             // 
@@ -104,6 +107,17 @@
             this.pictureBox1.TabIndex = 1;
             this.pictureBox1.TabStop = false;
             this.pictureBox1.Click += new System.EventHandler(this.pictureBox1_Click);
+            // 
+            // label2
+            // 
+            this.label2.AutoSize = true;
+            this.label2.BackColor = System.Drawing.Color.Transparent;
+            this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label2.Location = new System.Drawing.Point(13, 141);
+            this.label2.Name = "label2";
+            this.label2.Size = new System.Drawing.Size(89, 20);
+            this.label2.TabIndex = 3;
+            this.label2.Text = "Bem-vindo";
             // 
             // FrmMenu
             // 
@@ -137,5 +151,6 @@
         private System.Windows.Forms.Label lblNomeUser;
         private System.Windows.Forms.Button btnCursos;
         private System.Windows.Forms.PictureBox pictureBox1;
+        private System.Windows.Forms.Label label2;
     }
 }

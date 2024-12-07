@@ -13,13 +13,14 @@ namespace Model.Entidades
         public int IDADE { get; set; }
         public string EMAIL { get; set; }
         public int ID_CURSO { get; set; }
+        public string NOME_CUR { get; set; }
 
 
 
 
         public object[] Linha()
         {
-            return new object[] { ID_ALUNO, NOME, IDADE, EMAIL,ID_CURSO};
+            return new object[] { ID_ALUNO, NOME, IDADE, EMAIL,ID_CURSO,NOME_CUR};
         }
     }
 }

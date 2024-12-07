@@ -32,6 +32,7 @@
             this.txtNome = new ZBobb.AlphaBlendTextBox();
             this.txtSenha = new ZBobb.AlphaBlendTextBox();
             this.btnCadastrar = new System.Windows.Forms.PictureBox();
+            this.txtConfirmSenha = new ZBobb.AlphaBlendTextBox();
             ((System.ComponentModel.ISupportInitialize)(this.btnCadastrar)).BeginInit();
             this.SuspendLayout();
             // 
@@ -73,13 +74,27 @@
             this.btnCadastrar.TabStop = false;
             this.btnCadastrar.Click += new System.EventHandler(this.btnCadastrar_Click);
             // 
+            // txtConfirmSenha
+            // 
+            this.txtConfirmSenha.BackAlpha = 0;
+            this.txtConfirmSenha.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(255)))), ((int)(((byte)(255)))));
+            this.txtConfirmSenha.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.txtConfirmSenha.Font = new System.Drawing.Font("Microsoft Sans Serif", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtConfirmSenha.Location = new System.Drawing.Point(58, 478);
+            this.txtConfirmSenha.Multiline = true;
+            this.txtConfirmSenha.Name = "txtConfirmSenha";
+            this.txtConfirmSenha.PasswordChar = '*';
+            this.txtConfirmSenha.Size = new System.Drawing.Size(325, 30);
+            this.txtConfirmSenha.TabIndex = 3;
+            // 
             // FrmCadastrarUsuario
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.BackgroundImage = global::SistemaAlunosCursos.Properties.Resources.fundoCadUsuarios;
+            this.BackgroundImage = global::SistemaAlunosCursos.Properties.Resources.fundoCadUsuariosMelhorado;
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.ClientSize = new System.Drawing.Size(439, 631);
+            this.Controls.Add(this.txtConfirmSenha);
             this.Controls.Add(this.btnCadastrar);
             this.Controls.Add(this.txtSenha);
             this.Controls.Add(this.txtNome);
@@ -100,5 +115,6 @@
         private ZBobb.AlphaBlendTextBox txtNome;
         private ZBobb.AlphaBlendTextBox txtSenha;
         private System.Windows.Forms.PictureBox btnCadastrar;
+        private ZBobb.AlphaBlendTextBox txtConfirmSenha;
     }
 }

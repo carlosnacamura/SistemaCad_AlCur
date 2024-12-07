@@ -183,6 +183,16 @@ namespace SistemaAlunosCursos.Properties {
         /// <summary>
         ///   Consulta um recurso localizado do tipo System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap fundoCadUsuariosMelhorado {
+            get {
+                object obj = ResourceManager.GetObject("fundoCadUsuariosMelhorado", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Consulta um recurso localizado do tipo System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap fundoCursos {
             get {
                 object obj = ResourceManager.GetObject("fundoCursos", resourceCulture);

@@ -18,16 +18,17 @@ namespace SistemaAlunosCursos.Formulários
     {
         DaoUsuarios dao = new DaoUsuarios();
         FrmMain main = new FrmMain();
-        public FrmMenu()
+        private string nomeUsuario;
+        public FrmMenu(string nomeUsuario)
         {
             InitializeComponent();
-            
+            this.nomeUsuario = nomeUsuario;
         }
 
 
         private void FrmMenu_Load(object sender, EventArgs e)
         {
-
+            lblNomeUser.Text = nomeUsuario;
         }
         public void FecharForm(object sender, FormClosedEventArgs e)
         {

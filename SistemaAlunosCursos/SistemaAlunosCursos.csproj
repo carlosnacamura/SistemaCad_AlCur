@@ -36,6 +36,7 @@
     <Reference Include="AlphaBlendTextBox">
       <HintPath>..\..\..\..\..\Downloads\Imagens\AlphaBlendTextBox.dll</HintPath>
     </Reference>
+    <Reference Include="Microsoft.VisualBasic" />
     <Reference Include="System" />
     <Reference Include="System.Core" />
     <Reference Include="System.Xml.Linq" />
@@ -229,6 +230,9 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\btnExcluir.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\fundoCadUsuariosMelhorado.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

@@ -69,9 +69,9 @@
             this.btnEntrar.BackColor = System.Drawing.Color.Transparent;
             this.btnEntrar.Cursor = System.Windows.Forms.Cursors.Hand;
             this.btnEntrar.Image = global::SistemaAlunosCursos.Properties.Resources.btnLogar;
-            this.btnEntrar.Location = new System.Drawing.Point(888, 547);
+            this.btnEntrar.Location = new System.Drawing.Point(853, 524);
             this.btnEntrar.Name = "btnEntrar";
-            this.btnEntrar.Size = new System.Drawing.Size(301, 50);
+            this.btnEntrar.Size = new System.Drawing.Size(347, 73);
             this.btnEntrar.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.btnEntrar.TabIndex = 4;
             this.btnEntrar.TabStop = false;
@@ -84,7 +84,7 @@
             this.lblAdicionarUsuario.Cursor = System.Windows.Forms.Cursors.Hand;
             this.lblAdicionarUsuario.Font = new System.Drawing.Font("Microsoft Sans Serif", 13.8F, System.Drawing.FontStyle.Underline, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblAdicionarUsuario.ForeColor = System.Drawing.Color.White;
-            this.lblAdicionarUsuario.Location = new System.Drawing.Point(913, 626);
+            this.lblAdicionarUsuario.Location = new System.Drawing.Point(848, 626);
             this.lblAdicionarUsuario.Name = "lblAdicionarUsuario";
             this.lblAdicionarUsuario.Size = new System.Drawing.Size(257, 29);
             this.lblAdicionarUsuario.TabIndex = 5;

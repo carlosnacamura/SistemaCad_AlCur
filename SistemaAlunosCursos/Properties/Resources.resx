@@ -127,11 +127,20 @@
   <data name="loginConcertado" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Imagens\loginConcertado.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="fundoEdiCadAlunos" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\fundoEdiCadAlunos.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="etecFundo" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\etecFundo.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="login" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Imagens\login.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="fundoEdiCursos" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\fundoEdiCursos.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="btnExcluir" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\btnExcluir.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="alunosIcon" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\alunosIcon.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -154,8 +163,8 @@
   <data name="fundoCursos" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\fundoCursos.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="fundoCadEdiAlunos" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\fundoCadEdiAlunos.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="btnAdicionarCurso" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\btnAdicionarCurso.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="cursosIcon" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\cursosIcon.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -163,25 +172,19 @@
   <data name="fundoCadUsuarios" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\fundoCadUsuarios.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="btnAdicionarCurso" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\btnAdicionarCurso.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="btnLogar" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\btnLogar.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="btnCadastrar" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\btnCadastrar.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="btnLogar" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\btnLogar.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="fundoEdiCadAlunos" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\fundoEdiCadAlunos.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
   <data name="fundoEtecMelhorado" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\fundoEtecMelhorado.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="login" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Imagens\login.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="fundoCadEdiAlunos" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\fundoCadEdiAlunos.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="btnExcluir" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\btnExcluir.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="fundoCadUsuariosMelhorado" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\fundoCadUsuariosMelhorado.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
 </root>
