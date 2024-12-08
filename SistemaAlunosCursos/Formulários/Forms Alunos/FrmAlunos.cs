@@ -22,6 +22,7 @@ namespace SistemaAlunosCursos.Formulários.Forms_Alunos
                 dados.Columns.Add(atributos.Name);
             }
             dtGridAlunos.DataSource = dao.ObterAlunos();
+
         }
 
         private void FrmAlunos_Load(object sender, EventArgs e)

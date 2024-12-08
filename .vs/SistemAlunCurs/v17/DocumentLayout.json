@@ -3,24 +3,28 @@
   "WorkspaceRootPath": "C:\\Users\\nacam\\source\\repos\\carlosnacamura\\SistemaCad_AlCur\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{E2916895-C15A-412D-896F-7F5E179D7620}|SistemaAlunosCursos\\SistemaAlunosCursos.csproj|c:\\users\\nacam\\source\\repos\\carlosnacamura\\sistemacad_alcur\\sistemaalunoscursos\\formul\u00E1rios\\frmmenu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{E2916895-C15A-412D-896F-7F5E179D7620}|SistemaAlunosCursos\\SistemaAlunosCursos.csproj|solutionrelative:sistemaalunoscursos\\formul\u00E1rios\\frmmenu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+      "AbsoluteMoniker": "D:0:0:{E2916895-C15A-412D-896F-7F5E179D7620}|SistemaAlunosCursos\\SistemaAlunosCursos.csproj|c:\\users\\nacam\\source\\repos\\carlosnacamura\\sistemacad_alcur\\sistemaalunoscursos\\formul\u00E1rios\\forms alunos\\frmalunos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{E2916895-C15A-412D-896F-7F5E179D7620}|SistemaAlunosCursos\\SistemaAlunosCursos.csproj|solutionrelative:sistemaalunoscursos\\formul\u00E1rios\\forms alunos\\frmalunos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{E2916895-C15A-412D-896F-7F5E179D7620}|SistemaAlunosCursos\\SistemaAlunosCursos.csproj|C:\\Users\\nacam\\source\\repos\\carlosnacamura\\SistemaCad_AlCur\\sistemaalunoscursos\\formul\u00E1rios\\frmmenu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E2916895-C15A-412D-896F-7F5E179D7620}|SistemaAlunosCursos\\SistemaAlunosCursos.csproj|solutionrelative:sistemaalunoscursos\\formul\u00E1rios\\frmmenu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{E2916895-C15A-412D-896F-7F5E179D7620}|SistemaAlunosCursos\\SistemaAlunosCursos.csproj|c:\\users\\nacam\\source\\repos\\carlosnacamura\\sistemacad_alcur\\sistemaalunoscursos\\formul\u00E1rios\\forms cursos\\frmcursos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E2916895-C15A-412D-896F-7F5E179D7620}|SistemaAlunosCursos\\SistemaAlunosCursos.csproj|solutionrelative:sistemaalunoscursos\\formul\u00E1rios\\forms cursos\\frmcursos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{E2916895-C15A-412D-896F-7F5E179D7620}|SistemaAlunosCursos\\SistemaAlunosCursos.csproj|C:\\Users\\nacam\\source\\repos\\carlosnacamura\\SistemaCad_AlCur\\sistemaalunoscursos\\dao\\daousuarios.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E2916895-C15A-412D-896F-7F5E179D7620}|SistemaAlunosCursos\\SistemaAlunosCursos.csproj|solutionrelative:sistemaalunoscursos\\dao\\daousuarios.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{E2916895-C15A-412D-896F-7F5E179D7620}|SistemaAlunosCursos\\SistemaAlunosCursos.csproj|c:\\users\\nacam\\source\\repos\\carlosnacamura\\sistemacad_alcur\\sistemaalunoscursos\\dao\\daoalunos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E2916895-C15A-412D-896F-7F5E179D7620}|SistemaAlunosCursos\\SistemaAlunosCursos.csproj|solutionrelative:sistemaalunoscursos\\dao\\daoalunos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{E2916895-C15A-412D-896F-7F5E179D7620}|SistemaAlunosCursos\\SistemaAlunosCursos.csproj|C:\\Users\\nacam\\source\\repos\\carlosnacamura\\SistemaCad_AlCur\\sistemaalunoscursos\\frmmain.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E2916895-C15A-412D-896F-7F5E179D7620}|SistemaAlunosCursos\\SistemaAlunosCursos.csproj|solutionrelative:sistemaalunoscursos\\frmmain.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{E2916895-C15A-412D-896F-7F5E179D7620}|SistemaAlunosCursos\\SistemaAlunosCursos.csproj|c:\\users\\nacam\\source\\repos\\carlosnacamura\\sistemacad_alcur\\sistemaalunoscursos\\formul\u00E1rios\\forms alunos\\frmalunos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E2916895-C15A-412D-896F-7F5E179D7620}|SistemaAlunosCursos\\SistemaAlunosCursos.csproj|solutionrelative:sistemaalunoscursos\\formul\u00E1rios\\forms alunos\\frmalunos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{E2916895-C15A-412D-896F-7F5E179D7620}|SistemaAlunosCursos\\SistemaAlunosCursos.csproj|C:\\Users\\nacam\\source\\repos\\carlosnacamura\\SistemaCad_AlCur\\sistemaalunoscursos\\frmmain.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{E2916895-C15A-412D-896F-7F5E179D7620}|SistemaAlunosCursos\\SistemaAlunosCursos.csproj|solutionrelative:sistemaalunoscursos\\frmmain.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+      "AbsoluteMoniker": "D:0:0:{E2916895-C15A-412D-896F-7F5E179D7620}|SistemaAlunosCursos\\SistemaAlunosCursos.csproj|c:\\users\\nacam\\source\\repos\\carlosnacamura\\sistemacad_alcur\\sistemaalunoscursos\\dao\\daocursos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E2916895-C15A-412D-896F-7F5E179D7620}|SistemaAlunosCursos\\SistemaAlunosCursos.csproj|solutionrelative:sistemaalunoscursos\\dao\\daocursos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E2916895-C15A-412D-896F-7F5E179D7620}|SistemaAlunosCursos\\SistemaAlunosCursos.csproj|c:\\users\\nacam\\source\\repos\\carlosnacamura\\sistemacad_alcur\\sistemaalunoscursos\\formul\u00E1rios\\forms cursos\\frmcursos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{E2916895-C15A-412D-896F-7F5E179D7620}|SistemaAlunosCursos\\SistemaAlunosCursos.csproj|solutionrelative:sistemaalunoscursos\\formul\u00E1rios\\forms cursos\\frmcursos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     }
   ],
   "DocumentGroupContainers": [
@@ -30,7 +34,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 5,
           "Children": [
             {
               "$type": "Bookmark",
@@ -38,62 +42,79 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "FrmMenu.cs [Design]",
-              "DocumentMoniker": "C:\\Users\\nacam\\source\\repos\\carlosnacamura\\SistemaCad_AlCur\\SistemaAlunosCursos\\Formul\u00E1rios\\FrmMenu.cs",
-              "RelativeDocumentMoniker": "SistemaAlunosCursos\\Formul\u00E1rios\\FrmMenu.cs",
-              "ToolTip": "C:\\Users\\nacam\\source\\repos\\carlosnacamura\\SistemaCad_AlCur\\SistemaAlunosCursos\\Formul\u00E1rios\\FrmMenu.cs [Design]",
-              "RelativeToolTip": "SistemaAlunosCursos\\Formul\u00E1rios\\FrmMenu.cs [Design]",
+              "DocumentIndex": 4,
+              "Title": "DaoCursos.cs",
+              "DocumentMoniker": "C:\\Users\\nacam\\source\\repos\\carlosnacamura\\SistemaCad_AlCur\\SistemaAlunosCursos\\DAO\\DaoCursos.cs",
+              "RelativeDocumentMoniker": "SistemaAlunosCursos\\DAO\\DaoCursos.cs",
+              "ToolTip": "C:\\Users\\nacam\\source\\repos\\carlosnacamura\\SistemaCad_AlCur\\SistemaAlunosCursos\\DAO\\DaoCursos.cs",
+              "RelativeToolTip": "SistemaAlunosCursos\\DAO\\DaoCursos.cs",
+              "ViewState": "AgIAACEAAAAAAAAAAAAYwAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-07T19:17:50.315Z",
-              "EditorCaption": " [Design]"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "FrmMenu.cs",
-              "DocumentMoniker": "C:\\Users\\nacam\\source\\repos\\carlosnacamura\\SistemaCad_AlCur\\SistemaAlunosCursos\\Formul\u00E1rios\\FrmMenu.cs",
-              "RelativeDocumentMoniker": "SistemaAlunosCursos\\Formul\u00E1rios\\FrmMenu.cs",
-              "ToolTip": "C:\\Users\\nacam\\source\\repos\\carlosnacamura\\SistemaCad_AlCur\\SistemaAlunosCursos\\Formul\u00E1rios\\FrmMenu.cs",
-              "RelativeToolTip": "SistemaAlunosCursos\\Formul\u00E1rios\\FrmMenu.cs",
-              "ViewState": "AgIAAAgAAAAAAAAAAAAQwB4AAAAMAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-07T19:17:51.759Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "DaoUsuarios.cs",
-              "DocumentMoniker": "C:\\Users\\nacam\\source\\repos\\carlosnacamura\\SistemaCad_AlCur\\SistemaAlunosCursos\\DAO\\DaoUsuarios.cs",
-              "RelativeDocumentMoniker": "SistemaAlunosCursos\\DAO\\DaoUsuarios.cs",
-              "ToolTip": "C:\\Users\\nacam\\source\\repos\\carlosnacamura\\SistemaCad_AlCur\\SistemaAlunosCursos\\DAO\\DaoUsuarios.cs",
-              "RelativeToolTip": "SistemaAlunosCursos\\DAO\\DaoUsuarios.cs",
-              "ViewState": "AgIAAAkAAAAAAAAAAAAAACsAAAAdAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-07T19:16:26.398Z"
+              "WhenOpened": "2024-12-08T02:05:29.645Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 3,
-              "Title": "FrmMain.cs",
-              "DocumentMoniker": "C:\\Users\\nacam\\source\\repos\\carlosnacamura\\SistemaCad_AlCur\\SistemaAlunosCursos\\FrmMain.cs",
-              "RelativeDocumentMoniker": "SistemaAlunosCursos\\FrmMain.cs",
-              "ToolTip": "C:\\Users\\nacam\\source\\repos\\carlosnacamura\\SistemaCad_AlCur\\SistemaAlunosCursos\\FrmMain.cs",
-              "RelativeToolTip": "SistemaAlunosCursos\\FrmMain.cs",
-              "ViewState": "AgIAABIAAAAAAAAAAAAowB8AAAAAAAAAAAAAAA==",
+              "Title": "FrmAlunos.cs",
+              "DocumentMoniker": "C:\\Users\\nacam\\source\\repos\\carlosnacamura\\SistemaCad_AlCur\\SistemaAlunosCursos\\Formul\u00E1rios\\Forms Alunos\\FrmAlunos.cs",
+              "RelativeDocumentMoniker": "SistemaAlunosCursos\\Formul\u00E1rios\\Forms Alunos\\FrmAlunos.cs",
+              "ToolTip": "C:\\Users\\nacam\\source\\repos\\carlosnacamura\\SistemaCad_AlCur\\SistemaAlunosCursos\\Formul\u00E1rios\\Forms Alunos\\FrmAlunos.cs",
+              "RelativeToolTip": "SistemaAlunosCursos\\Formul\u00E1rios\\Forms Alunos\\FrmAlunos.cs",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAAABYAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-07T18:55:48.38Z"
+              "WhenOpened": "2024-12-08T01:15:57.467Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "FrmMain.cs [Design]",
-              "DocumentMoniker": "C:\\Users\\nacam\\source\\repos\\carlosnacamura\\SistemaCad_AlCur\\SistemaAlunosCursos\\FrmMain.cs",
-              "RelativeDocumentMoniker": "SistemaAlunosCursos\\FrmMain.cs",
-              "ToolTip": "C:\\Users\\nacam\\source\\repos\\carlosnacamura\\SistemaCad_AlCur\\SistemaAlunosCursos\\FrmMain.cs [Design]",
-              "RelativeToolTip": "SistemaAlunosCursos\\FrmMain.cs [Design]",
+              "DocumentIndex": 2,
+              "Title": "DaoAlunos.cs",
+              "DocumentMoniker": "C:\\Users\\nacam\\source\\repos\\carlosnacamura\\SistemaCad_AlCur\\SistemaAlunosCursos\\DAO\\DaoAlunos.cs",
+              "RelativeDocumentMoniker": "SistemaAlunosCursos\\DAO\\DaoAlunos.cs",
+              "ToolTip": "C:\\Users\\nacam\\source\\repos\\carlosnacamura\\SistemaCad_AlCur\\SistemaAlunosCursos\\DAO\\DaoAlunos.cs",
+              "RelativeToolTip": "SistemaAlunosCursos\\DAO\\DaoAlunos.cs",
+              "ViewState": "AgIAAIQAAAAAAAAAAAAowEcAAAA+AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-07T18:55:31.468Z"
+              "WhenOpened": "2024-12-08T01:03:43.133Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "FrmCursos.cs",
+              "DocumentMoniker": "C:\\Users\\nacam\\source\\repos\\carlosnacamura\\SistemaCad_AlCur\\SistemaAlunosCursos\\Formul\u00E1rios\\Forms Cursos\\FrmCursos.cs",
+              "RelativeDocumentMoniker": "SistemaAlunosCursos\\Formul\u00E1rios\\Forms Cursos\\FrmCursos.cs",
+              "ToolTip": "C:\\Users\\nacam\\source\\repos\\carlosnacamura\\SistemaCad_AlCur\\SistemaAlunosCursos\\Formul\u00E1rios\\Forms Cursos\\FrmCursos.cs",
+              "RelativeToolTip": "SistemaAlunosCursos\\Formul\u00E1rios\\Forms Cursos\\FrmCursos.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAEYAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-08T01:00:52.283Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "FrmAlunos.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\nacam\\source\\repos\\carlosnacamura\\SistemaCad_AlCur\\SistemaAlunosCursos\\Formul\u00E1rios\\Forms Alunos\\FrmAlunos.cs",
+              "RelativeDocumentMoniker": "SistemaAlunosCursos\\Formul\u00E1rios\\Forms Alunos\\FrmAlunos.cs",
+              "ToolTip": "C:\\Users\\nacam\\source\\repos\\carlosnacamura\\SistemaCad_AlCur\\SistemaAlunosCursos\\Formul\u00E1rios\\Forms Alunos\\FrmAlunos.cs [Design]",
+              "RelativeToolTip": "SistemaAlunosCursos\\Formul\u00E1rios\\Forms Alunos\\FrmAlunos.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-08T00:07:37.342Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "FrmCursos.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\nacam\\source\\repos\\carlosnacamura\\SistemaCad_AlCur\\SistemaAlunosCursos\\Formul\u00E1rios\\Forms Cursos\\FrmCursos.cs",
+              "RelativeDocumentMoniker": "SistemaAlunosCursos\\Formul\u00E1rios\\Forms Cursos\\FrmCursos.cs",
+              "ToolTip": "C:\\Users\\nacam\\source\\repos\\carlosnacamura\\SistemaCad_AlCur\\SistemaAlunosCursos\\Formul\u00E1rios\\Forms Cursos\\FrmCursos.cs [Design]",
+              "RelativeToolTip": "SistemaAlunosCursos\\Formul\u00E1rios\\Forms Cursos\\FrmCursos.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-08T01:00:32.898Z",
+              "EditorCaption": " [Design]"
             }
           ]
         }

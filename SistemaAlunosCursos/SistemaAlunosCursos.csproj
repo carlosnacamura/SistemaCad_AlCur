@@ -234,5 +234,8 @@
   <ItemGroup>
     <None Include="Resources\fundoCadUsuariosMelhorado.png" />
   </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\dtIconAluno.png" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
