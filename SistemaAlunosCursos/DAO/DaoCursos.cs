@@ -12,8 +12,8 @@ namespace SistemaAlunosCursos.DAO
 
     public class DaoCursos
     {
-        //private string LinhaConexao = "Server=LS05MPF;Database=AULA_DS;User Id=sa;Password=admsasql;";
-        private string LinhaConexao = "Server=CLAUDIA1968\\DBCARLOS;Database=SistemAlunCurs;User=carkapo;Password=112233;";
+        private string LinhaConexao = "Server=LS05MPF;Database=SistemAlunCurs;User Id=sa;Password=admsasql;";
+        //private string LinhaConexao = "Server=CLAUDIA1968\\DBCARLOS;Database=SistemAlunCurs;User=carkapo;Password=112233;";
         private SqlConnection Conexao;
         public DaoCursos()
         {

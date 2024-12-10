@@ -10,8 +10,8 @@ namespace SistemaAlunosCursos.DAO
 {
     internal class DaoUsuarios
     {
-        //private SqlConnection Conexao = new SqlConnection("Server=LS05MPF;Database=AULA_DS;User Id=sa;Password=admsasql;");
-        private SqlConnection Conexao = new SqlConnection("Server=CLAUDIA1968\\DBCARLOS;Database=SistemAlunCurs;User=carkapo;Password=112233;");
+        private SqlConnection Conexao = new SqlConnection("Server=LS05MPF;Database=SistemAlunCurs;User Id=sa;Password=admsasql;");
+        //private SqlConnection Conexao = new SqlConnection("Server=CLAUDIA1968\\DBCARLOS;Database=SistemAlunCurs;User=carkapo;Password=112233;");
 
         public bool UsuarioConfirmado(string nome,string senha)
         {

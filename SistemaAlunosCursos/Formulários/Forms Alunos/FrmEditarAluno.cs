@@ -15,7 +15,8 @@ namespace SistemaAlunosCursos.Formulários.Forms_Alunos
 {
     public partial class FrmEditarAluno : Form
     {
-        private string LinhaConexao = "Server=CLAUDIA1968\\DBCARLOS;Database=SistemAlunCurs;User=carkapo;Password=112233; ";
+        private string LinhaConexao = "Server=LS05MPF;Database=SistemAlunCurs;User Id=sa;Password=admsasql;";
+        //private string LinhaConexao = "Server=CLAUDIA1968\\DBCARLOS;Database=SistemAlunCurs;User=carkapo;Password=112233; ";
         private SqlConnection Conexao;
         DaoAlunos dao = new DaoAlunos();
         public FrmEditarAluno(int alunosId)
